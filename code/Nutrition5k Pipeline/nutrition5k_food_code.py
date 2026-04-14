@@ -353,12 +353,6 @@ def process_nutrition5k_images_parallel(df, image_base_path, results_path, check
     """
     last_num, last_index = load_checkpoint(checkpoint_path)
 
-    # Handle old checkpoint format: if last_index > 0, it means the old code
-    # completed that many items in iteration last_num. For parallel mode,
-    # we treat this as "iteration last_num completed" if last_index >= total items
-    # or "iteration last_num in progress" otherwise.
-    # Since parallel processes all items at once, if we have any last_index > 0,
-    # we should check if iteration was effectively completed by checking tasks.
     start_iteration = last_num
     if last_index > 0 and last_index >= len(df):
         # Old format: iteration completed, move to next
