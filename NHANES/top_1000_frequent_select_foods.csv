@@ -1,0 +1,1001 @@
+Food code,Main Food description,Rank,Rank 2011-2012,Rank 2013-2014,Rank 2015-2016,Rank 2017 Pre-pandemic
+94000100,"Water, tap",0,1.0,1.0,1.0,2.0
+94100100,"Water, bottled, plain",1,2.0,2.0,2.0,1.0
+92101000,"Coffee, brewed",2,4.0,3.0,3.0,3.0
+11112110,"Milk, reduced fat (2%)",3,3.0,4.0,4.0,6.0
+11111000,"Milk, whole",4,5.0,6.0,5.0,4.0
+91101010,"Sugar, white, granulated or lump",5,6.0,5.0,6.0,5.0
+92410310,"Soft drink, cola",6,7.0,7.0,7.0,8.0
+63107010,"Banana, raw",7,9.0,10.0,8.0,9.0
+75113000,"Lettuce, raw",8,8.0,8.0,9.0,13.0
+74401010,Ketchup,9,10.0,11.0,13.0,7.0
+74101000,"Tomatoes, raw",10,11.0,9.0,10.0,15.0
+63101000,"Apple, raw",11,13.0,12.0,11.0,11.0
+92410510,"Soft drink, fruit flavored, caffeine free",12,12.0,16.0,12.0,12.0
+71401030,"Potato, french fries, fast food",13,16.0,13.0,18.0,14.0
+83107000,"Mayonnaise, regular",14,21.0,17.0,21.0,10.0
+51101000,"Bread, white",15,15.0,14.0,14.0,25.0
+14410110,"Cheese, American",16,14.0,15.0,15.0,33.0
+11112210,"Milk, low fat (1%)",17,17.0,21.0,16.0,18.0
+64104010,"Apple juice, 100%",18,22.0,24.0,20.0,20.0
+56205008,"Rice, white, cooked, no added fat",19,20.0,23.0,19.0,21.0
+75506010,Mustard,20,25.0,34.0,40.0,17.0
+92530610,"Fruit juice drink, with high vitamin C",21,31.0,20.0,33.0,22.0
+63123000,"Grapes, raw",22,38.0,28.0,22.0,23.0
+61210220,"Orange juice, 100%, canned, bottled or in a carton",23,28.0,29.0,23.0,37.0
+61119010,"Orange, raw",24,34.0,38.0,25.0,27.0
+74402150,"Salsa, red",25,26.0,19.0,17.0,121.0
+51301010,"Bread, wheat or cracked wheat",26,23.0,25.0,31.0,58.0
+53206000,"Cookie, chocolate chip",27,33.0,42.0,29.0,26.0
+73101010,"Carrots, raw",28,39.0,31.0,30.0,35.0
+14104100,"Cheese, Cheddar",29,45.0,30.0,28.0,36.0
+75117020,"Onions, raw",30,37.0,26.0,37.0,41.0
+13110100,"Ice cream, vanilla",31,30.0,33.0,24.0,64.0
+81101000,"Butter, stick",32,47.0,41.0,35.0,29.0
+92410320,"Soft drink, cola, diet",33,35.0,35.0,39.0,43.0
+92103000,"Coffee, instant, reconstituted",34,41.0,47.0,36.0,31.0
+63223020,"Strawberries, raw",35,53.0,39.0,34.0,30.0
+93101000,Beer,36,44.0,43.0,38.0,34.0
+92302000,"Tea, hot, leaf, black",37,27.0,51.0,51.0,38.0
+42202000,Peanut butter,38,32.0,27.0,66.0,62.0
+25230210,"Ham, prepackaged or deli, luncheon meat",39,43.0,40.0,27.0,63.0
+52215100,"Tortilla, corn",40,52.0,53.0,26.0,48.0
+11113000,"Milk, fat free (skim)",41,29.0,32.0,52.0,78.0
+14010000,"Cheese, not further specified subcategory assigned",42,54.0,59.0,42.0,32.0
+61210250,"Orange juice, 100%, with calcium added, canned, bottled or in a carton",43,36.0,44.0,44.0,71.0
+91745020,,44,40.0,46.0,41.0,69.0
+51150000,"Roll, white, soft",45,18.0,72.0,79.0,83.0
+83112500,,46,48.0,37.0,45.0,67.0
+75111000,"Cucumber, raw",47,57.0,49.0,46.0,40.0
+92410360,"Soft drink, pepper type",48,49.0,64.0,47.0,46.0
+71201015,,49,19.0,18.0,,
+92410550,"Soft drink, fruit flavored, caffeine containing",50,56.0,52.0,56.0,50.0
+92308000,"Tea, iced, brewed, black, pre-sweetened with sugar",51,,56.0,32.0,28.0
+12210400,"Coffee creamer, powder",52,68.0,58.0,48.0,49.0
+22600200,"Pork bacon, not specified subcategory as to fresh, smoked or cured, cooked",53,66.0,60.0,50.0,53.0
+95320200,Sports drink (Gatorade G),54,64.0,62.0,57.0,51.0
+92541010,"Fruit flavored drink, powdered, reconstituted",55,46.0,55.0,68.0,70.0
+56205002,"Rice, white, cooked, made with oil",56,42.0,45.0,62.0,104.0
+12210210,"Coffee creamer, liquid, flavored",57,85.0,61.0,65.0,44.0
+51300110,"Bread, whole wheat",58,60.0,48.0,58.0,107.0
+54401080,,59,24.0,22.0,,
+91107000,"Sugar substitute, sucralose, powder",60,67.0,65.0,54.0,85.0
+83106000,"Italian dressing, made with vinegar and oil",61,73.0,66.0,75.0,60.0
+25221405,Pork sausage,62,70.0,77.0,61.0,61.0
+12120100,"Cream, half and half",63,107.0,81.0,74.0,47.0
+63149010,"Watermelon, raw",64,82.0,78.0,55.0,68.0
+91302010,Honey,65,77.0,90.0,64.0,55.0
+74406010,Barbecue sauce,66,86.0,75.0,70.0,56.0
+93102000,"Beer, light",67,71.0,68.0,72.0,76.0
+31103010,"Egg, whole, boiled or poached",68,91.0,93.0,67.0,54.0
+81101010,"Butter, tub",69,78.0,67.0,53.0,92.0
+91401000,Jelly,70,50.0,63.0,108.0,114.0
+89902020,"Lettuce, for use on a sandwich",71,,,,16.0
+51101010,"Bread, white, toasted",72,69.0,70.0,89.0,88.0
+58407030,"Soup, mostly noodles",73,94.0,103.0,77.0,57.0
+92309000,"Tea, iced, bottled, black",74,,71.0,59.0,52.0
+64100110,"Fruit juice blend, 100% juice",75,65.0,84.0,106.0,95.0
+58106555,"Pizza with pepperoni, from restaurant or fast food,  medium crust",76,131.0,83.0,76.0,72.0
+14107030,"Cheese, Mozzarella, part skim",77,84.0,76.0,84.0,93.0
+12210200,"Coffee creamer, liquid",78,133.0,105.0,71.0,65.0
+92111010,"Coffee, brewed, decaffeinated",79,104.0,91.0,94.0,74.0
+31105030,"Egg, whole, fried with oil",80,87.0,73.0,87.0,108.0
+63105010,"Avocado, raw",81,125.0,104.0,63.0,79.0
+54325000,"Crackers, saltine",82,79.0,97.0,83.0,100.0
+71200100,"Potato chips, plain",83,,,43.0,42.0
+52215200,"Tortilla, flour",84,100.0,95.0,69.0,119.0
+89902070,"Tomatoes, for use on a sandwich",85,,,,19.0
+53209015,"Cookie, chocolate sandwich",86,93.0,92.0,96.0,106.0
+75511010,Hot pepper sauce,87,451.0,472.0,388.0,24.0
+55101000,"Pancakes, plain",88,72.0,82.0,120.0,130.0
+91300100,Pancake syrup,89,525.0,174.0,147.0,39.0
+93401010,"Wine, table, red",90,97.0,94.0,101.0,109.0
+91708030,,91,83.0,88.0,85.0,156.0
+92306000,"Tea, hot, herbal",92,108.0,112.0,104.0,91.0
+32130010,"Egg omelet or scrambled egg, made with oil",93,74.0,86.0,124.0,148.0
+91705010,Chocolate candy,94,113.0,101.0,99.0,101.0
+11100000,"Milk, not further specified subcategory assigned",95,111.0,110.0,78.0,113.0
+91200040,"Sugar substitute, saccharin, powder",96,117.0,89.0,103.0,110.0
+92510610,Fruit juice drink,97,62.0,188.0,140.0,115.0
+51154100,"Roll, white, hamburger bun",98,,36.0,111.0,232.0
+41420300,Soy sauce,99,103.0,117.0,95.0,129.0
+91745010,"Candy, gummy",100,128.0,108.0,129.0,87.0
+11432000,"Yogurt, low fat milk, fruit",101,90.0,122.0,92.0,137.0
+51301020,"Bread, wheat or cracked wheat, toasted",102,96.0,116.0,110.0,118.0
+63203010,"Blueberries, raw",103,183.0,114.0,112.0,86.0
+57241000,"Cereal, O's, honey nut",104,105.0,120.0,131.0,111.0
+54401050,,105,51.0,57.0,,
+25230310,,106,59.0,50.0,,
+21500100,"Beef, ground",107,58.0,74.0,355.0,591.0
+57123000,"Cereal, O's, plain",108,109.0,107.0,117.0,147.0
+92308020,"Tea, iced, brewed, black, unsweetened",109,,80.0,80.0,96.0
+54301000,,110,55.0,54.0,,
+63109010,"Cantaloupe, raw",111,132.0,113.0,107.0,134.0
+72125100,"Spinach, raw",112,168.0,109.0,91.0,144.0
+54401081,Cheese flavored corn snacks (Cheetos),113,,,60.0,59.0
+92552030,Fruit juice drink (Capri Sun),114,75.0,119.0,138.0,205.0
+21101130,,115,98.0,115.0,127.0,171.0
+58145112,"Macaroni or noodles with cheese, made from packaged mix",116,118.0,130.0,113.0,131.0
+75503010,"Pickles, dill",117,88.0,100.0,121.0,260.0
+12310100,"Sour cream, regular",118,152.0,158.0,167.0,84.0
+57805000,"Baby Toddler cereal, rice, dry",119,101.0,96.0,173.0,221.0
+53105270,"Cake or cupcake, chocolate with chocolate icing, bakery",120,110.0,106.0,136.0,196.0
+92510955,"Lemonade, fruit juice drink",121,,128.0,93.0,90.0
+61204010,"Lemon juice, 100%, freshly squeezed",122,292.0,125.0,88.0,132.0
+81103080,"Margarine-oil blend, tub",123,89.0,102.0,134.0,444.0
+91611000,Popsicle,124,124.0,136.0,102.0,194.0
+25230780,"Turkey, prepackaged or deli, luncheon meat",125,,,49.0,81.0
+53241500,"Cookie, butter or sugar",126,138.0,163.0,125.0,122.0
+92410710,"Soft drink, root beer",127,149.0,121.0,132.0,149.0
+63141010,"Pineapple, raw",128,185.0,143.0,154.0,98.0
+81102020,"Margarine, tub",129,129.0,159.0,153.0,117.0
+92303010,"Tea, hot, leaf, green",130,,111.0,97.0,102.0
+75114000,"Mixed salad greens, raw",131,192.0,141.0,168.0,97.0
+92552010,"Fruit flavored drink, powdered, reconstituted, diet",132,136.0,150.0,128.0,138.0
+22600100,"Bacon, not specified subcategory as to type of meat, cooked",133,122.0,127.0,100.0,243.0
+92510960,"Lemonade, fruit flavored drink",134,,118.0,105.0,94.0
+51160110,"Roll, sweet, cinnamon bun, frosted",135,153.0,172.0,119.0,145.0
+14301010,"Cream cheese, regular, plain",136,181.0,140.0,133.0,140.0
+72116000,"Romaine lettuce, raw",137,180.0,126.0,152.0,146.0
+51180010,Bagel,138,143.0,145.0,162.0,155.0
+92410610,"Soft drink, ginger ale",139,175.0,187.0,233.0,99.0
+92410210,"Water, carbonated, plain",140,220.0,165.0,146.0,116.0
+74402200,"Salsa, red, homemade",141,226.0,162.0,114.0,141.0
+24198731,"Chicken nuggets, from fast food",142,,,98.0,66.0
+57349000,,143,116.0,135.0,135.0,274.0
+58106225,"Pizza, cheese, from restaurant or fast food, medium crust",144,184.0,173.0,157.0,123.0
+58101345,,145,191.0,146.0,90.0,248.0
+14108010,"Cheese, Parmesan, dry grated",146,159.0,168.0,145.0,150.0
+92410350,"Soft drink, cola, decaffeinated, diet",147,120.0,138.0,206.0,180.0
+63135010,"Peach, raw",148,144.0,132.0,165.0,190.0
+64100200,"Cranberry juice blend, 100% juice",149,145.0,180.0,156.0,158.0
+91750000,"Candy, taffy",150,166.0,153.0,197.0,136.0
+63137010,"Pear, raw",151,142.0,152.0,150.0,183.0
+93401020,"Wine, table, white",152,156.0,144.0,174.0,159.0
+51185000,Croutons,153,171.0,157.0,187.0,143.0
+54401110,"Tortilla chips, nacho cheese flavor (Doritos)",154,,,82.0,75.0
+24122120,,155,81.0,69.0,,
+83110000,Mayonnaise-type salad dressing,156,135.0,137.0,160.0,261.0
+11710359,"Infant formula, Similac Advance, powder, made with baby water",157,163.0,182.0,116.0,204.0
+54401075,"Tortilla chips, plain",158,,,81.0,77.0
+51300120,"Bread, whole wheat, toasted",159,209.0,134.0,170.0,165.0
+14109010,"Cheese, Swiss",160,157.0,124.0,176.0,234.0
+89902040,"Onions, for use on a sandwich",161,,,,45.0
+56205001,"Rice, white, cooked, not specified subcategory as to fat",162,,,73.0,89.0
+71401031,"Potato, french fries, restaurant",163,,,86.0,82.0
+54102010,Graham crackers,164,161.0,170.0,181.0,175.0
+57213000,,165,134.0,166.0,142.0,337.0
+52103000,"Biscuit, from fast food / restaurant",166,177.0,223.0,177.0,153.0
+53530000,Breakfast tart,167,186.0,179.0,180.0,176.0
+61125010,"Tangerine, raw",168,222.0,151.0,115.0,275.0
+28500040,"Gravy, beef",169,126.0,160.0,188.0,303.0
+51107010,"Bread, French or Vienna",170,179.0,176.0,158.0,207.0
+61204000,"Lemon juice, 100%, not specified subcategory as to form",171,173.0,167.0,302.0,162.0
+74404010,Spaghetti sauce,172,189.0,171.0,195.0,187.0
+53204010,"Cookie, brownie, without icing",173,188.0,208.0,193.0,163.0
+54403020,,174,80.0,85.0,,
+24100000,"Chicken, not specified subcategory as to part and cooking method, not specified subcategory as to skin eaten",175,199.0,129.0,143.0,388.0
+64104030,"Apple juice, 100%, with calcium added",176,,131.0,137.0,154.0
+51157000,"Roll, white, hoagie, submarine",177,162.0,133.0,169.0,413.0
+63129010,"Mango, raw",178,221.0,216.0,144.0,182.0
+58145110,Macaroni or noodles with cheese,179,127.0,237.0,255.0,203.0
+24198730,,180,92.0,87.0,,
+64116020,"Grape juice, 100%",181,140.0,221.0,257.0,200.0
+56205018,"Rice, brown, cooked, no added fat",182,141.0,201.0,164.0,313.0
+11511200,"Chocolate milk, ready to drink, reduced fat",183,147.0,206.0,182.0,256.0
+92410340,"Soft drink, cola, decaffeinated",184,151.0,195.0,225.0,226.0
+54408010,,185,106.0,79.0,,
+91715100,,186,172.0,191.0,159.0,291.0
+22311000,Ham,187,227.0,218.0,202.0,168.0
+62125100,Raisins,188,204.0,261.0,166.0,181.0
+53521110,"Doughnut, yeast type",189,265.0,190.0,183.0,192.0
+53120270,"Cake or cupcake, white with white icing, bakery",190,158.0,268.0,185.0,235.0
+14107010,"Cheese, Mozzarella, not further specified subcategory assigned",191,242.0,161.0,186.0,249.0
+11320000,Soy milk,192,167.0,183.0,270.0,246.0
+53240000,"Cookie, animal",193,170.0,228.0,223.0,224.0
+58104710,"Quesadilla, cheese only",194,202.0,194.0,222.0,222.0
+75109000,"Celery, raw",195,234.0,192.0,210.0,201.0
+51601020,"Bread, multigrain",196,123.0,213.0,240.0,379.0
+25220410,Bologna,197,215.0,205.0,161.0,264.0
+57804000,"Baby Toddler cereal, oatmeal, dry",198,212.0,222.0,231.0,188.0
+92114000,"Coffee, instant, decaffeinated, reconstituted",199,217.0,199.0,151.0,288.0
+91301250,,200,112.0,177.0,148.0,
+71201020,,201,99.0,98.0,,
+57125000,"Cereal, cinnamon toast",202,182.0,267.0,237.0,202.0
+51300175,"Bread, chappatti or roti",203,262.0,315.0,286.0,135.0
+81100500,"Butter, not further specified subcategory assigned",204,198.0,178.0,392.0,217.0
+71401020,"Potato, french fries, from frozen, baked",205,169.0,204.0,369.0,223.0
+11350020,"Almond milk, unsweetened",206,,236.0,213.0,112.0
+57100100,"Cereal, ready-to-eat, not further specified subcategory assigned",207,248.0,175.0,149.0,369.0
+91402000,Jam,208,146.0,148.0,371.0,447.0
+75122000,"Pepper, raw, not further specified subcategory assigned",209,282.0,186.0,215.0,210.0
+11511000,"Chocolate milk, not further specified subcategory assigned",210,205.0,244.0,248.0,225.0
+72201211,"Broccoli, fresh, cooked, no added fat",211,224.0,154.0,172.0,499.0
+54408016,"Pretzels, hard, plain, salted",212,,,122.0,103.0
+27564060,"Hot dog sandwich, beef, on white bun",213,208.0,248.0,238.0,227.0
+52302010,"Muffin, fruit",214,239.0,230.0,266.0,195.0
+58132310,,215,95.0,123.0,,
+11710639,"Infant formula, Enfamil Infant, powder, made with baby water",216,1795.0,246.0,118.0,186.0
+95320500,Sports drink (Powerade),217,216.0,241.0,217.0,250.0
+54328100,"Crackers, sandwich, peanut butter filled",218,231.0,299.0,241.0,197.0
+58150110,"Rice, fried, meatless",219,254.0,288.0,250.0,189.0
+54401020,,220,119.0,99.0,,
+53206020,"Cookie, chocolate chip, made from home recipe or purchased at a bakery",221,305.0,252.0,298.0,170.0
+14133000,Queso Fresco,222,258.0,300.0,228.0,206.0
+54301030,"Crackers, butter (Ritz)",223,,,109.0,127.0
+92410520,"Soft drink, fruit flavored, diet, caffeine free",224,200.0,184.0,291.0,365.0
+25221500,"Salami, not further specified subcategory assigned",225,194.0,264.0,236.0,293.0
+92513000,Slush frozen drink,226,327.0,226.0,239.0,211.0
+63101120,"Applesauce, unsweetened",227,232.0,224.0,203.0,345.0
+51166000,Croissant,228,251.0,263.0,220.0,245.0
+91108000,"Sugar substitute, stevia, powder",229,379.0,285.0,249.0,178.0
+74402350,"Salsa verde or salsa, green",230,382.0,231.0,179.0,259.0
+91801000,Chewing gum,231,1560.0,207.0,226.0,164.0
+91201010,"Sugar substitute, aspartame, powder",232,193.0,193.0,329.0,384.0
+81104010,"Margarine-oil blend, tub, light",233,148.0,212.0,307.0,565.0
+41104020,"Pinto beans, from dried, no added fat",234,240.0,198.0,196.0,446.0
+32130070,"Egg omelet or scrambled egg, no added fat",235,337.0,209.0,207.0,272.0
+71200110,"Potato chips, barbecue flavored",236,,,123.0,124.0
+75511100,"Pickles, not further specified subcategory assigned",237,2606.0,,2720.0,73.0
+92309500,"Tea, iced, bottled, green",238,,210.0,211.0,167.0
+75140990,"Coleslaw, fast food / restaurant",239,342.0,233.0,214.0,253.0
+11511100,"Chocolate milk, ready to drink, whole",240,206.0,338.0,275.0,247.0
+63409010,"Guacamole, not further specified subcategory assigned",241,243.0,260.0,306.0,239.0
+91102010,"Sugar, brown",242,268.0,295.0,258.0,228.0
+92531030,Fruit juice drink (Sunny D),243,139.0,293.0,366.0,417.0
+32130020,"Egg omelet or scrambled egg, made with butter",244,280.0,283.0,245.0,229.0
+11350000,"Almond milk, sweetened",245,316.0,277.0,216.0,237.0
+56203056,"Oatmeal, regular or quick, made with water, no added fat",246,,,126.0,133.0
+14106200,"Cheese, Monterey",247,210.0,202.0,380.0,325.0
+58163410,"Spanish rice, fat added",248,238.0,203.0,204.0,490.0
+12140000,"Cream, whipped",249,366.0,301.0,227.0,213.0
+51109010,"Bread, Italian, Grecian, Armenian",250,370.0,229.0,273.0,231.0
+11511400,"Chocolate milk, ready to drink, low fat",251,211.0,298.0,303.0,278.0
+92305040,"Tea, iced, instant, black, pre-sweetened with sugar",252,263.0,243.0,178.0,442.0
+54304020,"Crackers, cheese (Goldfish)",253,,,141.0,126.0
+94300100,"Water, baby",254,272.0,245.0,194.0,377.0
+92301060,,255,61.0,,,
+53520110,,256,195.0,185.0,163.0,
+54403056,"Popcorn, microwave, butter flavored",257,,,130.0,139.0
+52102040,"Biscuit, from refrigerated dough",258,207.0,292.0,200.0,474.0
+72201100,"Broccoli, raw",259,283.0,220.0,219.0,364.0
+63101110,"Applesauce, regular",260,303.0,227.0,337.0,251.0
+57135000,,261,237.0,262.0,171.0,528.0
+54304000,"Crackers, cheese",262,160.0,149.0,744.0,815.0
+92302200,,263,63.0,,,
+27560300,Corn dog,264,250.0,326.0,265.0,270.0
+58146322,"Pasta with tomato-based sauce and meat, home recipe",265,,,155.0,128.0
+91734100,,266,275.0,225.0,283.0,327.0
+91301080,Chocolate syrup,267,264.0,239.0,274.0,352.0
+14108400,"Cheese, Provolone",268,274.0,200.0,276.0,430.0
+75205023,"Green beans, canned, cooked, no added fat",269,273.0,238.0,277.0,346.0
+55201000,"Waffle, plain",270,165.0,139.0,1052.0,1170.0
+24198740,,271,102.0,189.0,,
+54338000,"Crackers, wheat",272,190.0,271.0,414.0,403.0
+92530410,"Fruit flavored drink, with high vitamin C",273,228.0,278.0,242.0,497.0
+58106550,"Pizza with pepperoni, from restaurant or fast food, thin crust",274,253.0,197.0,370.0,435.0
+13120500,"Ice cream sandwich, vanilla",275,340.0,282.0,308.0,254.0
+13110102,"Ice cream, vanilla, with additional ingredients",276,,,,80.0
+51101050,"Bread, white, made from home recipe or purchased at a bakery",277,284.0,359.0,272.0,266.0
+58145111,"Macaroni or noodles with cheese, from restaurant",278,,348.0,224.0,166.0
+71200200,"Potato chips, ruffled, plain",279,,,139.0,152.0
+56205000,"Rice, cooked, not further specified subcategory assigned",280,219.0,380.0,262.0,370.0
+54304005,"Crackers, cheese (Cheez-It)",281,,,199.0,125.0
+24198700,,282,114.0,169.0,,
+92102400,"Iced Coffee, brewed",283,,314.0,252.0,172.0
+51161270,"Pan Dulce, with sugar topping",284,306.0,343.0,189.0,393.0
+64401000,Vinegar,285,397.0,382.0,373.0,199.0
+11430000,"Yogurt, not specified subcategory as to type of milk, fruit",286,230.0,391.0,263.0,386.0
+82104000,Olive oil,287,317.0,352.0,235.0,306.0
+75121000,"Pepper, hot chili, raw",288,386.0,217.0,244.0,441.0
+81102000,"Margarine, not further specified subcategory assigned",289,252.0,303.0,627.0,262.0
+75510000,"Olives, not further specified subcategory assigned",290,417.0,317.0,405.0,220.0
+91746100,"Chocolate candy, candy shell",291,290.0,270.0,377.0,305.0
+11710358,"Infant formula, Similac Advance, powder, made with bottled water",292,270.0,780.0,325.0,218.0
+11710679,"Infant formula, Enfamil Gentlease, powder, made with baby water",293,324.0,266.0,230.0,419.0
+93505000,Vodka,294,176.0,384.0,554.0,372.0
+71501010,"Potato, mashed, from fresh, made with milk",295,427.0,392.0,175.0,332.0
+53712100,"Cereal or Granola bar, not further specified subcategory assigned",296,405.0,311.0,254.0,300.0
+57305100,,297,313.0,255.0,209.0,567.0
+51160000,"Roll, sweet, no frosting",298,773.0,296.0,268.0,236.0
+94100200,"Water, non-carbonated, flavored",299,728.0,333.0,299.0,212.0
+57227000,"Cereal, granola",300,344.0,312.0,338.0,283.0
+92530510,"Cranberry juice drink, with high vitamin C",301,233.0,445.0,379.0,309.0
+92101500,"Coffee, brewed, blend of regular and decaffeinated",302,438.0,219.0,346.0,382.0
+51320010,"Roll, wheat or cracked wheat",303,247.0,275.0,320.0,558.0
+58106625,"Pizza with meat other than pepperoni, from restaurant or fast food, medium crust",304,501.0,388.0,312.0,238.0
+24198741,"Chicken tenders or strips, breaded, from fast food",305,,,198.0,151.0
+11710357,"Infant formula, Similac Advance, powder, made with tap water",306,261.0,313.0,397.0,385.0
+52202060,"Cornbread, made from home recipe",307,322.0,451.0,322.0,273.0
+75109550,"Cilantro, raw",308,541.0,344.0,341.0,240.0
+91361010,Sweet and sour sauce,309,294.0,496.0,281.0,311.0
+53233010,"Cookie, oatmeal, with raisins",310,300.0,276.0,324.0,433.0
+53710906,Cereal or granola bar (General Mills Nature Valley Crunchy Granola Bar),311,302.0,368.0,297.0,335.0
+91707000,,312,390.0,304.0,296.0,338.0
+56203030,,313,155.0,147.0,,
+24208500,"Turkey bacon, cooked",314,257.0,353.0,328.0,400.0
+62109100,"Cranberries, dried",315,393.0,305.0,368.0,295.0
+11553110,"Fruit smoothie, with whole fruit and dairy",316,,215.0,212.0,331.0
+51109100,"Bread, pita",317,285.0,345.0,348.0,350.0
+32130080,"Egg omelet or scrambled egg, from fast food / restaurant",318,682.0,390.0,305.0,230.0
+53121270,"Cake or cupcake, white with chocolate icing, bakery",319,326.0,242.0,285.0,586.0
+14104250,"Cheese, Colby Jack",320,474.0,453.0,295.0,257.0
+71202500,"Potato chips, lightly salted",321,1494.0,1490.0,190.0,184.0
+63115010,"Cherries, raw",322,259.0,349.0,375.0,421.0
+71401000,"Potato, french fries, not specified subcategory as to fresh or frozen",323,516.0,354.0,316.0,280.0
+75103000,"Cabbage, green, raw",324,754.0,269.0,292.0,307.0
+13110110,"Ice cream, chocolate",325,360.0,272.0,332.0,426.0
+91301060,,326,213.0,234.0,246.0,
+57237100,"Cereal, oat bunches",327,361.0,309.0,430.0,323.0
+57214000,"Cereal, shredded wheat, flavored",328,357.0,330.0,287.0,397.0
+42111200,"Peanuts, dry roasted, salted",329,374.0,247.0,466.0,394.0
+92302500,"Tea, hot, leaf, black, decaffeinated",330,178.0,406.0,575.0,555.0
+11710919,"Infant formula, Gerber Good Start Gentle, Stage 1, powder, made with baby water",331,408.0,251.0,549.0,330.0
+51601010,"Bread, multigrain, toasted",332,304.0,407.0,356.0,334.0
+31105040,"Egg, whole, fried with butter",333,410.0,415.0,253.0,360.0
+58106560,"Pizza with pepperoni, from restaurant or fast food, thick crust",334,308.0,235.0,480.0,539.0
+83102000,Caesar dressing,335,388.0,281.0,381.0,408.0
+25210210,"Hot dog, beef",336,295.0,481.0,367.0,333.0
+71200140,"Potato chips, other flavored",337,,,184.0,179.0
+24198690,,338,196.0,142.0,,
+27214100,Meat loaf made with beef,339,331.0,273.0,443.0,461.0
+21101120,,340,334.0,367.0,259.0,509.0
+21102130,,341,354.0,339.0,247.0,551.0
+92511010,,342,76.0,,,
+75216113,"Corn, canned, cooked, no added fat",343,315.0,332.0,282.0,552.0
+71501000,"Potato, mashed, not further specified subcategory assigned",344,121.0,337.0,1558.0,1995.0
+42116000,"Walnuts, excluding honey roasted",345,279.0,887.0,897.0,209.0
+53108200,"Snack cake, chocolate",346,359.0,331.0,553.0,317.0
+58101320,,347,375.0,289.0,330.0,532.0
+92410370,"Soft drink, pepper type, diet",348,338.0,361.0,357.0,406.0
+42302015,"Peanut butter and jelly sandwich, with regular peanut butter, regular jelly, on white bread",349,,,205.0,177.0
+83113500,Ranch dressing,350,,,,105.0
+58160110,Beans and white rice,351,266.0,334.0,288.0,782.0
+41205070,"Hummus, plain",352,269.0,280.0,703.0,496.0
+61210000,"Orange juice, 100%, not further specified subcategory assigned",353,276.0,583.0,317.0,436.0
+75506100,Honey mustard dip,354,495.0,383.0,415.0,290.0
+22701020,,355,369.0,322.0,310.0,522.0
+71403000,,356,150.0,196.0,,
+58403010,"Chicken or turkey noodle soup, canned or ready-to-serve",357,296.0,328.0,413.0,505.0
+13120730,"Ice cream cone, scooped, vanilla",358,345.0,250.0,327.0,770.0
+11511550,"Chocolate milk, ready to drink, reduced sugar, not specified subcategory as to milk",359,,249.0,208.0,454.0
+91802000,"Chewing gum, sugar free",360,,291.0,300.0,277.0
+58106220,"Pizza, cheese, from restaurant or fast food, thin crust",361,289.0,232.0,644.0,626.0
+93502000,Whiskey,362,421.0,680.0,402.0,265.0
+31102000,"Egg, whole, cooked, not specified subcategory as to cooking method",363,472.0,372.0,432.0,315.0
+27214110,"Meat loaf made with beef, with tomato-based sauce",364,497.0,375.0,418.0,312.0
+52201000,"Cornbread, prepared from mix",365,362.0,454.0,364.0,367.0
+14410120,"Cheese, American, reduced fat",366,236.0,308.0,391.0,907.0
+22000100,"Pork, not further specified subcategory assigned",367,351.0,396.0,267.0,541.0
+54403000,,368,201.0,155.0,,
+31105090,"Egg, whole, fried, from fast food / restaurant",369,687.0,460.0,376.0,268.0
+83204000,"Mayonnaise, light",370,255.0,256.0,318.0,1895.0
+22311020,,371,452.0,329.0,278.0,564.0
+57223000,"Cereal, fruit crispy",372,477.0,615.0,358.0,286.0
+24198736,"Chicken nuggets, from frozen",373,,,251.0,174.0
+92511015,Fruit flavored drink,374,,356.0,234.0,310.0
+81102010,"Margarine, stick",375,486.0,389.0,500.0,314.0
+91101000,"Sugar, not further specified subcategory assigned",376,517.0,423.0,343.0,358.0
+57119000,"Cereal, crunch",377,466.0,459.0,481.0,302.0
+75216111,"Corn, fresh, cooked, no added fat",378,286.0,365.0,347.0,664.0
+11710379,"Infant formula, Similac Sensitive, powder, made with baby water",379,288.0,351.0,463.0,563.0
+91745100,,380,311.0,376.0,411.0,517.0
+71401032,"Potato, french fries, from frozen, fried",381,,381.0,256.0,289.0
+21500310,"Beef, ground, patty",382,,,218.0,198.0
+51121010,,383,197.0,181.0,,
+92410560,"Soft drink, fruit flavored, caffeine containing, diet",384,348.0,335.0,600.0,457.0
+83210100,,385,287.0,325.0,400.0,773.0
+13120100,"Ice cream bar, vanilla, chocolate coated",386,429.0,553.0,384.0,368.0
+21602100,Beef jerky,387,583.0,410.0,372.0,359.0
+71000100,"Potato, not further specified subcategory assigned",388,617.0,482.0,485.0,282.0
+83114000,Thousand Island dressing,389,681.0,342.0,439.0,354.0
+58163405,"Spanish rice, from restaurant",390,,287.0,280.0,378.0
+53233000,"Cookie, oatmeal",391,278.0,569.0,396.0,520.0
+81302050,Tartar sauce,392,414.0,416.0,635.0,329.0
+28340660,"Chicken or turkey vegetable soup, home recipe",393,394.0,401.0,333.0,529.0
+24201000,"Turkey, not further specified subcategory assigned",394,399.0,402.0,446.0,432.0
+91705300,Dark chocolate candy,395,560.0,561.0,460.0,294.0
+74402100,"Salsa, not further specified subcategory assigned",396,842.0,1005.0,1104.0,169.0
+27120030,"Barbecue pork, with sauce",397,413.0,433.0,279.0,622.0
+14620200,Cheese dip,398,420.0,689.0,427.0,326.0
+25221350,Italian sausage,399,377.0,444.0,581.0,383.0
+54301010,"Crackers, butter, plain",400,,,271.0,185.0
+89902100,"Bacon, for use on a sandwich",401,,,,120.0
+55200020,"Waffle, plain, frozen",402,,,232.0,208.0
+53244020,"Cookie, butter or sugar, with icing or filling other than chocolate",403,554.0,424.0,469.0,362.0
+54401085,"Tortilla chips, flavored",404,,,192.0,242.0
+58403040,"Chicken or turkey noodle soup, home recipe",405,349.0,358.0,459.0,593.0
+26100110,"Fish, not further specified subcategory assigned",406,391.0,321.0,243.0,1452.0
+31105010,"Egg, whole, fried no added fat",407,392.0,568.0,530.0,371.0
+26319145,,408,557.0,398.0,289.0,577.0
+11830160,"Chocolate beverage powder, dry mix, not reconstituted",409,298.0,310.0,532.0,806.0
+12210310,"Coffee creamer, liquid, sugar free, flavored",410,589.0,290.0,483.0,534.0
+71900200,"Plantain, cooked with oil",411,323.0,596.0,434.0,486.0
+63143010,"Plum, raw",412,352.0,498.0,501.0,471.0
+26137120,"Fish, salmon, baked or broiled",413,356.0,394.0,577.0,488.0
+11542200,"Milk shake, fast food, flavors other than chocolate",414,462.0,457.0,448.0,427.0
+53729000,"Nutrition bar or meal replacement bar, not further specified subcategory assigned",415,1845.0,607.0,349.0,267.0
+27145000,Chicken or turkey with teriyaki,416,409.0,323.0,614.0,549.0
+32130000,"Egg omelet or scrambled egg, made with margarine",417,339.0,702.0,620.0,391.0
+25221830,Turkey or chicken sausage,418,453.0,504.0,429.0,465.0
+58106200,"Pizza, cheese, from frozen, thin crust",419,588.0,627.0,471.0,349.0
+92306800,"Tea, hot, with milk",420,,718.0,428.0,233.0
+75503020,"Relish, pickle",421,318.0,584.0,474.0,559.0
+25221400,"Sausage, not further specified subcategory assigned",422,343.0,698.0,523.0,451.0
+51186010,"Muffin, English",423,550.0,465.0,457.0,452.0
+14108020,"Cheese, Parmesan, hard",424,604.0,327.0,623.0,468.0
+57237300,,425,329.0,427.0,497.0,662.0
+53710500,Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar),426,443.0,400.0,544.0,502.0
+27510241,"Cheeseburger, on white bun, 1 medium patty",427,,,721.0,161.0
+51153000,"Roll, white, hard",428,346.0,294.0,601.0,957.0
+91705030,,429,418.0,422.0,323.0,784.0
+11431000,"Yogurt, whole milk, fruit",430,310.0,320.0,790.0,749.0
+11514100,"Hot chocolate / Cocoa, made with dry mix and water",431,387.0,565.0,561.0,472.0
+41603010,"Lentil soup, home recipe, canned, or ready-to-serve",432,459.0,509.0,412.0,521.0
+58104130,"Nachos, beef or pork",433,463.0,652.0,435.0,437.0
+14660200,"Mozzarella sticks, breaded, baked, or fried",434,515.0,633.0,382.0,463.0
+52101000,"Biscuit, not further specified subcategory assigned",435,674.0,637.0,269.0,527.0
+91304090,Chocolate hazelnut spread,436,864.0,458.0,342.0,439.0
+71220000,Vegetable chips,437,866.0,520.0,385.0,380.0
+92410250,"Water, carbonated, flavored",438,1189.0,1383.0,1479.0,173.0
+71501040,"Potato, mashed, from dry mix, made with milk",439,321.0,587.0,475.0,602.0
+91721000,"Candy, licorice",440,439.0,513.0,408.0,566.0
+72201212,"Broccoli, frozen, cooked, no added fat",441,578.0,373.0,416.0,584.0
+83101000,Blue or roquefort cheese dressing,442,603.0,579.0,510.0,374.0
+42101130,"Almonds, unsalted",443,,,229.0,258.0
+58132110,,444,187.0,258.0,,
+25220105,Beef sausage,445,312.0,604.0,543.0,569.0
+25231110,"Beef, prepackaged or deli, luncheon meat",446,398.0,316.0,470.0,881.0
+42111210,"Peanuts, dry roasted, unsalted",447,621.0,307.0,482.0,639.0
+42100100,"Almonds, not further specified subcategory assigned",448,244.0,521.0,756.0,778.0
+91501010,Gelatin dessert,449,460.0,544.0,520.0,455.0
+24123120,"Chicken breast, stewed, skin not eaten",450,465.0,476.0,490.0,506.0
+27146350,Orange chicken,451,491.0,492.0,496.0,476.0
+61100600,"Clementine, raw",452,,,,142.0
+58106500,,453,223.0,214.0,,
+58145117,"Macaroni or noodles with cheese, Easy Mac type",454,383.0,554.0,582.0,493.0
+32130110,"Egg omelet or scrambled egg, with cheese, made with oil",455,533.0,508.0,472.0,470.0
+27146150,Chicken curry,456,381.0,618.0,558.0,491.0
+75125000,"Radish, raw",457,528.0,431.0,541.0,500.0
+21000100,"Beef, not further specified subcategory assigned",458,534.0,522.0,313.0,661.0
+91731010,,459,552.0,494.0,378.0,570.0
+21500300,,460,355.0,156.0,,
+58150330,"Rice, fried, with pork",461,412.0,466.0,584.0,547.0
+12350230,"Ranch dip, regular",462,,,465.0,191.0
+25221250,"Pepperoni, not further specified subcategory assigned",463,630.0,420.0,389.0,568.0
+75440600,Vegetable curry,464,402.0,529.0,686.0,494.0
+14104400,"Cheese, Feta",465,480.0,486.0,590.0,495.0
+21401120,,466,333.0,437.0,592.0,740.0
+75510020,"Olives, black",467,599.0,483.0,596.0,429.0
+43104000,Flax seeds,468,691.0,324.0,578.0,561.0
+71404010,"Potato, hash brown, from fast food",469,,,365.0,215.0
+53243000,"Cookie, vanilla sandwich",470,400.0,479.0,617.0,582.0
+74406100,Steak sauce,471,524.0,631.0,580.0,424.0
+92411510,"Soft drink, cola, fruit or vanilla flavored",472,688.0,360.0,772.0,434.0
+92305010,"Tea, iced, instant, black, unsweetened",473,435.0,470.0,374.0,816.0
+51161250,"Pan Dulce, no topping",474,478.0,632.0,438.0,536.0
+71401010,"Potato, french fries, from fresh, fried",475,555.0,525.0,417.0,571.0
+56205004,"Rice, white, cooked, made with butter",476,845.0,517.0,509.0,389.0
+54401111,"Tortilla chips, cool ranch flavor (Doritos)",477,,,293.0,241.0
+24167110,,478,154.0,430.0,,
+22701010,,479,538.0,555.0,321.0,726.0
+58150510,"Rice, fried, with shrimp",480,396.0,531.0,643.0,560.0
+91723000,"Candy, marshmallow",481,422.0,448.0,499.0,718.0
+58106725,"Pizza with meat and vegetables, from restaurant or fast food, medium crust",482,455.0,505.0,461.0,645.0
+26155110,"Fish, tuna, canned",483,518.0,591.0,352.0,654.0
+26107140,"Fish, catfish, fried",484,669.0,474.0,637.0,416.0
+75122100,"Pepper, sweet, green, raw",485,406.0,640.0,615.0,523.0
+53204100,"Cookie, brownie, with icing or filling",486,631.0,497.0,424.0,548.0
+53207000,"Cookie, chocolate or fudge",487,668.0,551.0,512.0,431.0
+91800100,,488,130.0,1835.0,1941.0,3073.0
+71405020,,489,260.0,211.0,,
+92101610,"Coffee, espresso",490,447.0,700.0,494.0,518.0
+51133010,"Bread, sour dough",491,461.0,387.0,736.0,605.0
+22709010,Pork skin rinds,492,551.0,506.0,452.0,606.0
+56130000,"Pasta, cooked",493,1500.0,1047.0,362.0,301.0
+24122131,"Chicken breast, baked, broiled, or roasted, skin not eaten, from raw",494,,,260.0,279.0
+24123301,"Chicken breast, grilled without sauce, skin not eaten",495,,,264.0,276.0
+11710649,,496,137.0,834.0,,
+74303000,"Tomato and vegetable juice, 100%",497,384.0,644.0,462.0,677.0
+14420100,"Cheese spread, American or Cheddar cheese base",498,696.0,347.0,441.0,739.0
+56203066,"Oatmeal, regular or quick, made with milk, no added fat",499,,,201.0,353.0
+92301130,,500,115.0,,,
+41104010,"Pinto beans, from dried, fat added",501,214.0,1877.0,2284.0,477.0
+58150320,"Rice, fried, with chicken",502,526.0,487.0,492.0,610.0
+24201120,"Turkey, light meat, roasted, skin not eaten",503,874.0,405.0,406.0,581.0
+71601010,"Potato salad with egg, made with mayonnaise",504,297.0,546.0,961.0,635.0
+27540190,,505,368.0,355.0,314.0,
+91301510,"Pancake syrup, light",506,424.0,366.0,734.0,742.0
+32130210,"Egg omelet or scrambled egg, with meat, made with oil",507,479.0,552.0,422.0,691.0
+52405010,"Bread, fruit",508,561.0,463.0,651.0,516.0
+31105020,"Egg, whole, fried with margarine",509,579.0,767.0,528.0,422.0
+27450060,"Tuna salad, made with mayonnaise",510,332.0,573.0,361.0,1327.0
+12210270,"Coffee creamer, liquid, fat free, flavored",511,468.0,341.0,827.0,684.0
+22101120,,512,543.0,418.0,390.0,842.0
+95310400,Energy drink (Monster),513,693.0,439.0,548.0,526.0
+89902050,"Pepper, for use on a sandwich",514,,,,157.0
+26158010,"Fish, tilapia, baked or broiled",515,511.0,533.0,420.0,715.0
+27564440,"Chili hot dog sandwich, on white bun",516,403.0,724.0,707.0,508.0
+24100020,"Chicken, not specified subcategory as to part and cooking method, skin not eaten",517,2258.0,1607.0,794.0,214.0
+11710638,"Infant formula, Enfamil Infant, powder, made with bottled water",518,,501.0,524.0,318.0
+27540146,"Chicken fillet sandwich, fried, from fast food",519,,,,160.0
+63135140,"Peach, canned, in syrup",520,527.0,601.0,821.0,456.0
+26100270,"Fish, stick",521,532.0,378.0,673.0,673.0
+71201250,,522,235.0,265.0,,
+58160150,Kidney beans and white rice,523,309.0,467.0,556.0,1277.0
+25221310,Polish sausage,524,650.0,686.0,393.0,572.0
+11710678,"Infant formula, Enfamil Gentlease, powder, made with bottled water",525,658.0,393.0,868.0,501.0
+74402110,"Salsa, pico de gallo",526,792.0,688.0,442.0,473.0
+26319120,"Shrimp, baked or broiled",527,458.0,774.0,479.0,588.0
+58100010,,528,618.0,480.0,340.0,898.0
+63127010,"Honeydew melon, raw",529,661.0,503.0,618.0,524.0
+11114330,"Milk, lactose free, reduced fat (2%)",530,964.0,616.0,354.0,550.0
+61101010,"Grapefruit, raw",531,350.0,571.0,612.0,824.0
+75216112,"Corn, frozen, cooked, no added fat",532,505.0,369.0,449.0,1145.0
+57330000,,533,571.0,547.0,486.0,667.0
+53234000,"Cookie, peanut butter",534,608.0,690.0,537.0,498.0
+53104500,"Cheesecake, plain",535,624.0,429.0,473.0,744.0
+56203010,,536,249.0,254.0,,
+41201020,"Baked beans, vegetarian",537,365.0,469.0,294.0,
+42501000,Trail mix with nuts and fruit,538,575.0,619.0,748.0,479.0
+58104120,"Nachos, cheese only",539,605.0,730.0,604.0,467.0
+27510310,,540,245.0,259.0,,
+63126500,"Kiwi fruit, raw",541,475.0,725.0,445.0,680.0
+31105080,"Egg, whole, fried with cooking spray",542,620.0,613.0,454.0,618.0
+24198742,"Chicken tenders or strips, breaded, from restaurant",543,,,284.0,292.0
+41208030,Pork and beans,544,440.0,452.0,551.0,912.0
+27510215,"Cheeseburger, from fast food, 1 medium patty",545,,,943.0,193.0
+41102020,"Black beans, from dried, no added fat",546,648.0,455.0,399.0,848.0
+53109200,"Snack cake, white",547,725.0,765.0,630.0,411.0
+95230030,"Nutritional powder mix, protein, not further specified subcategory assigned",548,626.0,537.0,527.0,630.0
+11434010,"Yogurt, Greek, low fat milk, fruit",549,,253.0,563.0,716.0
+94210200,,550,358.0,475.0,760.0,911.0
+28340670,"Chicken or turkey vegetable soup with rice, home recipe, Mexican style",551,426.0,464.0,444.0,1253.0
+25220350,Bratwurst,552,660.0,936.0,345.0,601.0
+53209100,"Cookie, chocolate, sandwich, with extra filling",553,667.0,471.0,666.0,576.0
+56205012,"Rice, brown, cooked, fat added, made with oil",554,395.0,362.0,662.0,1320.0
+54350010,,555,454.0,758.0,421.0,795.0
+64124020,"Pineapple juice, 100%",556,520.0,540.0,542.0,737.0
+26319110,"Shrimp, not further specified subcategory assigned",557,722.0,642.0,433.0,631.0
+61207010,"Lime juice, 100%, freshly squeezed",558,785.0,519.0,586.0,543.0
+55301000,"French toast, plain",559,415.0,279.0,1511.0,1222.0
+12210430,"Coffee creamer, powder, fat free",560,500.0,786.0,451.0,678.0
+91705060,,561,548.0,379.0,521.0,1076.0
+27564000,"Hot dog sandwich, not further specified subcategory assigned, on white bun",562,567.0,674.0,503.0,642.0
+42111100,"Peanuts, roasted, salted",563,1012.0,974.0,426.0,410.0
+41205010,Refried beans,564,307.0,1523.0,1829.0,412.0
+14104110,"Cheese, Cheddar, reduced fat",565,644.0,357.0,698.0,780.0
+58100100,,566,771.0,257.0,800.0,1096.0
+92303100,"Tea, hot, leaf, green, decaffeinated",567,,371.0,529.0,489.0
+24168000,"Chicken ""wings"" with hot sauce, from fast food / restaurant",568,,,398.0,271.0
+12210420,"Coffee creamer, powder, flavored",569,498.0,478.0,804.0,692.0
+58108050,Pizza rolls,570,512.0,824.0,701.0,507.0
+95310600,Energy drink (Red Bull),571,523.0,752.0,506.0,656.0
+53711000,Cereal or granola bar (Quaker Chewy Granola Bar),572,568.0,650.0,786.0,531.0
+91705020,Chocolate candy with cereal,573,576.0,641.0,513.0,688.0
+52215260,"Tortilla, whole wheat",574,672.0,414.0,589.0,741.0
+24123311,"Chicken breast, grilled with sauce, skin not eaten",575,,,261.0,361.0
+57308400,"Cereal, O's, multigrain",576,407.0,524.0,676.0,893.0
+57128000,,577,423.0,590.0,619.0,867.0
+95103000,"Nutritional drink or shake, ready-to-drink (Ensure)",578,522.0,673.0,691.0,589.0
+26319140,"Shrimp, fried",579,645.0,768.0,1008.0,395.0
+27510172,Cheeseburger (McDonalds),580,,,331.0,297.0
+71101000,"Potato, baked, peel not eaten",581,573.0,489.0,626.0,754.0
+75205021,"Green beans, fresh, cooked, no added fat",582,666.0,523.0,464.0,791.0
+14201010,"Cheese, cottage, creamed, large or small curd",583,875.0,611.0,489.0,574.0
+12210505,"Coffee creamer,powder, sugar free, flavored",584,1786.0,654.0,508.0,415.0
+24124201,"Chicken breast, sauteed, skin not eaten",585,,,309.0,324.0
+54401112,"Tortilla chips, other flavors (Doritos)",586,,,311.0,319.0
+43102100,"Sunflower seeds, plain, salted",587,372.0,477.0,840.0,967.0
+27446200,"Chicken or turkey salad, made with mayonnaise",588,542.0,603.0,969.0,542.0
+41420010,Soybean curd,589,735.0,574.0,547.0,621.0
+25230900,,590,271.0,274.0,,
+57339000,,591,470.0,491.0,560.0,1061.0
+27150210,Fish sauce,592,670.0,488.0,505.0,788.0
+42101210,,593,787.0,164.0,,
+42501500,Trail mix with chocolate,594,794.0,648.0,488.0,604.0
+58106514,"Pizza with pepperoni, from frozen, medium crust",595,,,404.0,281.0
+92550030,"Fruit juice drink, with high vitamin C, light",596,376.0,595.0,798.0,876.0
+51401010,"Bread, rye",597,488.0,543.0,780.0,736.0
+53226500,"Cookie, marshmallow, with rice cereal, no bake",598,530.0,645.0,591.0,747.0
+58101323,,599,607.0,443.0,605.0,854.0
+41104011,,600,,370.0,191.0,
+55100050,"Pancakes, plain, fast food / restaurant",601,,,304.0,336.0
+24127220,"Chicken breast, fried, coated, skin / coating eaten, from fast food / restaurant",602,,,386.0,287.0
+83205450,"Italian dressing, light",603,597.0,557.0,487.0,838.0
+75115000,"Mushrooms, raw",604,508.0,630.0,658.0,755.0
+51300050,"Bread, whole grain white",605,519.0,527.0,858.0,707.0
+91406500,"Jam or jelly, fruit juice sweetened",606,529.0,577.0,628.0,832.0
+26319130,"Shrimp, steamed or boiled",607,673.0,721.0,645.0,557.0
+57134000,"Cereal, corn flakes, plain",608,730.0,745.0,587.0,553.0
+58100120,,609,769.0,426.0,507.0,887.0
+57104000,,610,507.0,409.0,830.0,920.0
+91703200,,611,521.0,542.0,533.0,1005.0
+53209005,"Cookie, chocolate, with icing or coating",612,846.0,377.0,737.0,725.0
+54401021,"Corn chips, plain",613,,,290.0,375.0
+57329000,"Cereal, bran flakes, flavored",614,613.0,903.0,933.0,445.0
+53247000,"Cookie, vanilla wafer",615,654.0,610.0,493.0,807.0
+73102211,"Carrots, fresh, cooked, no added fat",616,663.0,526.0,608.0,769.0
+92101850,"Coffee, cafe con leche",617,,713.0,221.0,901.0
+11432500,,618,241.0,346.0,,
+14650100,Cheese sauce,619,565.0,864.0,495.0,709.0
+56203155,"Oatmeal, instant, fruit flavored, no added fat",620,,,419.0,296.0
+27146010,,621,246.0,340.0,,
+43102000,"Sunflower seeds, plain, unsalted",622,493.0,727.0,641.0,767.0
+63133010,"Papaya, raw",623,545.0,889.0,514.0,710.0
+41201010,Baked beans,624,2961.0,3042.0,2077.0,219.0
+51154010,"Roll, white, hot dog bun",625,,628.0,409.0,514.0
+92100500,"Coffee, not specified subcategory as to brewed or instant",626,174.0,1530.0,3103.0,2501.0
+75122200,"Pepper, sweet, red, raw",627,595.0,548.0,766.0,743.0
+11710378,"Infant formula, Similac Sensitive, powder, made with bottled water",628,643.0,802.0,1892.0,390.0
+32130060,"Egg omelet or scrambled egg, made with cooking spray",629,686.0,462.0,684.0,833.0
+53510100,"Danish pastry, with fruit",630,710.0,602.0,531.0,766.0
+71200120,"Potato chips, sour cream and onion flavored",631,,,336.0,351.0
+58131323,"Ravioli, meat-filled, with tomato sauce or meat sauce, canned",632,539.0,592.0,716.0,805.0
+58163380,Flavored rice and pasta mixture,633,823.0,450.0,570.0,855.0
+75216120,"Corn, not specified subcategory as to form, cooked",634,1630.0,4835.0,,216.0
+11411200,"Yogurt, low fat milk, plain",635,320.0,781.0,984.0,913.0
+58112510,"Wonton, dumpling or pot sticker, steamed",636,449.0,663.0,952.0,728.0
+11710377,"Infant formula, Similac Sensitive, powder, made with tap water",637,679.0,696.0,516.0,763.0
+58106655,"Pizza with extra meat, medium crust",638,1247.0,672.0,682.0,480.0
+64204010,Mango nectar,639,1305.0,884.0,436.0,530.0
+13120790,"Ice cream cone, vanilla, prepackaged",640,1409.0,1381.0,1102.0,284.0
+54403005,"Popcorn, movie theater, with added butter",641,,,315.0,381.0
+58146332,"Pasta with tomato-based sauce, meat, and added vegetables, home recipe",642,,,326.0,373.0
+42302020,"Peanut butter and jelly sandwich, with regular peanut butter, regular jelly, on wheat bread",643,,,456.0,299.0
+11411100,"Yogurt, whole milk, plain",644,601.0,1212.0,741.0,484.0
+75652010,"Vegetable beef soup, home recipe",645,711.0,511.0,764.0,731.0
+75330110,,646,734.0,306.0,455.0,
+83100100,"Salad dressing, not further specified subcategory assigned, for salads",647,765.0,624.0,822.0,578.0
+71200410,"Potato chips, baked, flavored",648,,,334.0,366.0
+24147320,"Chicken drumstick, fried, coated, skin / coating eaten, from fast food / restaurant",649,,,359.0,347.0
+27560650,,650,456.0,567.0,835.0,940.0
+41810250,Bacon bits,651,536.0,789.0,665.0,723.0
+24198746,"Chicken tenders or strips, breaded, from frozen",652,,,350.0,363.0
+71501020,,653,291.0,302.0,,
+53233050,"Cookie, oatmeal sandwich, with creme filling",654,546.0,811.0,719.0,674.0
+93102300,"Beer, higher alcohol",655,,538.0,689.0,449.0
+53235000,"Cookie, peanut butter sandwich",656,685.0,710.0,749.0,629.0
+53201000,"Cookie, not further specified subcategory assigned",657,689.0,890.0,775.0,533.0
+71201050,"Potato chips, reduced fat",658,434.0,599.0,753.0,1216.0
+83100200,"Salad dressing, not further specified subcategory assigned, for sandwiches",659,535.0,461.0,866.0,1044.0
+41420350,"Soy sauce, reduced sodium",660,719.0,665.0,807.0,632.0
+11710917,"Infant formula, Gerber Good Start Gentle, Stage 1, powder, made with tap water",661,1589.0,516.0,1058.0,460.0
+58146222,"Pasta with tomato-based sauce, home recipe",662,,,351.0,376.0
+57344010,"Cereal, K's, flavored",663,640.0,719.0,624.0,777.0
+54403087,"Popcorn, ready-to-eat, cheese flavored",664,,,526.0,298.0
+63420110,,665,428.0,386.0,640.0,
+92308520,"Tea, iced, brewed, green, unsweetened",666,,667.0,652.0,440.0
+71200310,"Potato chips, restructured, flavored",667,,,339.0,392.0
+83104000,French or Catalina dressing,668,432.0,1097.0,661.0,822.0
+58106230,"Pizza, cheese, from restaurant or fast food, thick crust",669,637.0,403.0,939.0,1014.0
+75221021,"Onions, cooked, fat added",670,877.0,,,263.0
+11710918,"Infant formula, Gerber Good Start Gentle, Stage 1, powder, made with bottled water",671,976.0,515.0,785.0,683.0
+58132340,,672,325.0,297.0,,
+51320500,"Roll, whole wheat",673,556.0,507.0,738.0,1139.0
+92121000,"Coffee, instant, pre-lightened and pre-sweetened with sugar, reconstituted",674,746.0,598.0,791.0,730.0
+22101220,,675,531.0,743.0,447.0,1567.0
+83105500,Honey mustard dressing,676,598.0,683.0,1055.0,659.0
+58106620,"Pizza with meat other than pepperoni, from restaurant or fast food, thin crust",677,638.0,871.0,594.0,764.0
+53301000,"Pie, apple",678,755.0,816.0,667.0,640.0
+92161000,"Coffee, Cappuccino",679,909.0,564.0,905.0,650.0
+11433000,"Yogurt, nonfat milk, fruit",680,1186.0,1648.0,431.0,525.0
+56203130,"Oatmeal, instant, maple flavored, no added fat",681,,,453.0,342.0
+56201052,"Grits, regular or quick, made with water, fat added",682,,,536.0,320.0
+24124120,,683,218.0,675.0,,
+92101900,"Coffee, Latte",684,336.0,902.0,1084.0,975.0
+27445110,"Chicken or turkey and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, soy-based sauce",685,514.0,560.0,1036.0,953.0
+61213800,"Fruit juice blend, citrus, 100% juice",686,594.0,800.0,723.0,781.0
+32130170,"Egg omelet or scrambled egg, with cheese, no added fat",687,713.0,549.0,647.0,1006.0
+52215300,"Taco shell, corn",688,1174.0,620.0,671.0,670.0
+95322200,"Sports drink, low calorie (Gatorade G2)",689,3293.0,499.0,758.0,546.0
+92309510,"Tea, iced, bottled, green, diet",690,,639.0,557.0,554.0
+58100320,,691,492.0,697.0,789.0,1011.0
+91707010,,692,684.0,530.0,763.0,1003.0
+27347100,"Pot pie, chicken",693,897.0,806.0,545.0,713.0
+53244010,"Cookie, butter or sugar, with chocolate icing or filling",694,962.0,733.0,718.0,615.0
+32130490,"Egg omelet or scrambled egg, with vegetables other than dark green and/or tomatoes, fat added",695,1013.0,570.0,609.0,813.0
+92301000,,696,164.0,,,
+58130011,Lasagna with meat,697,281.0,831.0,1016.0,1939.0
+53520160,"Doughnut, chocolate, with chocolate icing",698,1068.0,495.0,927.0,676.0
+93301100,Margarita,699,1317.0,661.0,616.0,666.0
+27510330,,700,267.0,413.0,,
+51158100,"Roll, Mexican, bolillo",701,559.0,428.0,1679.0,1001.0
+58126150,"Turnover or hot pocket, pizza pocket, meat",702,569.0,896.0,768.0,756.0
+75105000,"Cabbage, red, raw",703,584.0,664.0,770.0,962.0
+53116000,"Cake, pound",704,609.0,832.0,1085.0,649.0
+57304100,"Cereal, oat squares",705,675.0,589.0,773.0,925.0
+61210010,"Orange juice, 100%,  freshly squeezed",706,676.0,693.0,656.0,879.0
+13130300,"Light ice cream, vanilla",707,690.0,759.0,870.0,695.0
+53239000,"Cookie, shortbread",708,775.0,660.0,851.0,729.0
+32130120,"Egg omelet or scrambled egg, with cheese, made with butter",709,851.0,850.0,690.0,613.0
+27564180,"Hot dog sandwich, meat and poultry, on white bun",710,1003.0,1062.0,967.0,450.0
+32130400,"Egg omelet or scrambled egg, with tomatoes, fat added",711,1047.0,649.0,722.0,672.0
+42104100,"Cashews, salted",712,2712.0,1242.0,572.0,425.0
+71200400,"Potato chips, baked, plain",713,,,319.0,483.0
+73403010,"Sweet potato, baked, no added fat",714,664.0,744.0,817.0,757.0
+25230220,"Ham, prepackaged or deli, luncheon meat, reduced sodium",715,797.0,614.0,755.0,828.0
+14204010,"Cheese, cottage, low fat",716,993.0,720.0,484.0,897.0
+58100000,,717,1014.0,502.0,423.0,1483.0
+54402080,"Tortilla chips, reduced sodium",718,1995.0,2918.0,491.0,405.0
+71403020,"Potato, home fries, not further specified subcategory assigned",719,,,394.0,402.0
+51184030,,720,319.0,336.0,,
+28500070,,721,445.0,385.0,816.0,
+42202150,"Peanut butter, reduced fat",722,549.0,441.0,1385.0,1164.0
+57348000,"Cereal, corn flakes, flavored",723,1094.0,1885.0,1746.0,321.0
+27111406,"Chili con carne with beans, home recipe",724,,456.0,664.0,668.0
+67202000,"Baby Toddler juice, apple",725,502.0,534.0,838.0,1524.0
+91703010,,726,503.0,838.0,568.0,1261.0
+58148110,"Macaroni or pasta salad, made with mayonnaise",727,616.0,717.0,925.0,792.0
+58110130,"Egg roll, with beef and/or pork",728,665.0,797.0,843.0,748.0
+93501000,Brandy,729,680.0,848.0,813.0,694.0
+63131010,"Nectarine, raw",730,741.0,716.0,934.0,697.0
+26158030,"Fish, tilapia, fried",731,756.0,711.0,710.0,809.0
+54403110,"Popcorn, caramel coated",732,828.0,737.0,893.0,648.0
+11513550,"Chocolate milk, made from syrup with reduced fat milk",733,833.0,572.0,1045.0,701.0
+73406000,"Sweet potato, candied",734,928.0,699.0,611.0,808.0
+42114140,"Pistachio nuts, salted",735,,635.0,759.0,513.0
+71200300,"Potato chips, restructured, plain",736,,,335.0,475.0
+42112000,"Pecans, not further specified subcategory assigned",737,558.0,435.0,1685.0,1089.0
+91726130,,738,859.0,760.0,606.0,817.0
+92308010,"Tea, iced, brewed, black, pre-sweetened with low calorie sweetener",739,,318.0,675.0,1053.0
+24198735,"Chicken nuggets, from school lunch",740,,528.0,535.0,714.0
+61207000,"Lime juice, 100%, not specified subcategory as to form",741,593.0,687.0,1091.0,825.0
+14131500,Queso Asadero,742,720.0,593.0,595.0,1340.0
+58145170,Macaroni or noodles with cheese and egg,743,762.0,723.0,1086.0,658.0
+11710967,"Infant formula, store brand, advantage or tender, powder, made with tap water",744,1496.0,473.0,598.0,942.0
+24147210,,745,229.0,772.0,,
+71201100,,746,330.0,350.0,,
+58101347,,747,625.0,740.0,660.0,1100.0
+11513500,"Chocolate milk, made from syrup with whole milk",748,697.0,908.0,880.0,660.0
+54001000,"Crackers, not further specified subcategory assigned",749,699.0,821.0,692.0,820.0
+75141000,Coleslaw,750,800.0,958.0,1261.0,535.0
+63201010,"Blackberries, raw",751,939.0,868.0,712.0,653.0
+54403050,,752,457.0,284.0,,
+42100050,"Nuts, not further specified subcategory assigned",753,1170.0,863.0,781.0,575.0
+11434020,"Yogurt, Greek, nonfat milk, fruit",754,,795.0,727.0,478.0
+51121035,"Garlic bread, from frozen",755,,,440.0,423.0
+54401031,"Corn chips, plain (Fritos)",756,,,450.0,404.0
+54401055,Cheese flavored corn snacks,757,,,603.0,356.0
+52104010,"Biscuit, home recipe",758,489.0,937.0,820.0,980.0
+54402700,Pita chips,759,614.0,788.0,713.0,950.0
+92121010,"Coffee, instant, pre-sweetened with sugar, reconstituted",760,1819.0,651.0,621.0,719.0
+27510510,,761,293.0,417.0,,
+26305160,Crab,762,611.0,1203.0,991.0,644.0
+41601070,"Soybean soup, miso broth",763,623.0,746.0,847.0,934.0
+24207000,"Turkey, ground",764,635.0,539.0,1040.0,1082.0
+58103120,"Tamale, beef",765,829.0,666.0,502.0,1309.0
+27540150,,766,862.0,425.0,437.0,
+11114350,"Milk, lactose free, whole",767,935.0,918.0,1135.0,537.0
+54401065,"Cheese flavored corn snacks, reduced fat",768,,,672.0,348.0
+91746300,"Candy, fruit snacks",769,,,,244.0
+75502520,Kimchi,770,574.0,679.0,930.0,1136.0
+58110110,"Egg roll, meatless",771,714.0,779.0,889.0,800.0
+75107000,"Cauliflower, raw",772,770.0,953.0,695.0,775.0
+12120110,"Cream, half and half, fat free",773,791.0,775.0,728.0,837.0
+91703040,,774,834.0,778.0,566.0,1002.0
+58101450,,775,895.0,626.0,663.0,1022.0
+14107200,"Cheese, Muenster",776,941.0,636.0,588.0,1105.0
+11710677,"Infant formula, Enfamil Gentlease, powder, made with tap water",777,1037.0,363.0,1256.0,1092.0
+58103130,"Tamale, chicken",778,1390.0,791.0,360.0,1185.0
+24198747,"Chicken tenders or strips, breaded, from other sources",779,,,353.0,519.0
+54403006,"Popcorn, movie theater, no butter added",780,,,410.0,464.0
+24168001,"Chicken ""wings"" with other sauces or seasoning, from fast food / restaurant",781,,,693.0,344.0
+54402600,,782,301.0,421.0,,
+42111000,"Peanuts, not further specified subcategory assigned",783,373.0,904.0,1230.0,1208.0
+64100100,"Fruit juice, not further specified subcategory assigned",784,586.0,963.0,702.0,978.0
+81103090,"Butter replacement, liquid",785,824.0,576.0,803.0,1016.0
+71501006,"Potato, mashed, from fast food, with gravy",786,,,383.0,492.0
+94000010,"Water, not further specified subcategory assigned",787,,,,252.0
+72201190,"Broccoli, cooked, from restaurant",788,,,,255.0
+21420100,"Beef, sandwich steak",789,484.0,734.0,761.0,1742.0
+27415100,"Beef and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, soy-based sauce",790,585.0,987.0,746.0,955.0
+22101320,"Pork, chop, coated, lean only eaten",791,629.0,861.0,907.0,821.0
+11710801,"Toddler formula, PediaSure",792,896.0,694.0,864.0,794.0
+74406500,Cocktail sauce,793,965.0,608.0,953.0,783.0
+63311110,"Fruit cocktail, canned, not further specified subcategory assigned",794,1057.0,955.0,1223.0,515.0
+11460000,"Frozen yogurt, vanilla",795,1154.0,600.0,923.0,753.0
+12210260,"Coffee creamer, liquid, fat free",796,1545.0,1063.0,539.0,652.0
+41205017,"Refried beans, from fast food / restaurant",797,,655.0,625.0,665.0
+64134015,"Fruit smoothie, with whole fruit, no dairy",798,,878.0,576.0,579.0
+63311000,"Fruit salad, fresh or raw,  excluding citrus fruits, no dressing",799,416.0,825.0,962.0,1468.0
+75415020,,800,437.0,612.0,700.0,
+91703020,,801,729.0,766.0,565.0,1343.0
+11710968,"Infant formula, store brand, advantage or tender, powder, made with bottled water",802,1151.0,657.0,708.0,852.0
+14120010,"Cheese, Mexican blend",803,1360.0,1147.0,515.0,687.0
+13110120,,804,572.0,578.0,573.0,
+56203211,,805,341.0,395.0,,
+58106235,"Pizza, cheese, from school lunch, thin crust",806,446.0,536.0,1686.0,1694.0
+14303010,"Cream cheese, light",807,469.0,978.0,937.0,1137.0
+27116200,"Barbecue beef, with sauce",808,606.0,840.0,478.0,2112.0
+91304010,"Topping, butterscotch or caramel",809,677.0,1071.0,1020.0,712.0
+56205006,"Rice, white, cooked, made with margarine",810,698.0,919.0,1178.0,702.0
+58148180,Macaroni or pasta salad with cheese,811,966.0,847.0,1073.0,624.0
+22701000,"Pork, ribs",812,2991.0,2892.0,2835.0,285.0
+63409015,Guacamole with tomatoes,813,,,525.0,420.0
+24167130,,814,299.0,493.0,,
+24142210,,815,328.0,419.0,,
+91300010,"Syrup, not further specified subcategory assigned",816,580.0,870.0,1222.0,853.0
+58161320,Beans and brown rice,817,649.0,580.0,657.0,2285.0
+92550620,"Fruit flavored drink, diet",818,708.0,764.0,932.0,935.0
+57117000,,819,757.0,575.0,992.0,1071.0
+92305090,"Tea, iced, instant, black, pre-sweetened with low calorie sweetener",820,496.0,735.0,1190.0,1257.0
+58106720,"Pizza with meat and vegetables, from restaurant or fast food, thin crust",821,801.0,879.0,654.0,952.0
+54304150,"Crackers, cheese, whole grain",822,837.0,814.0,829.0,834.0
+51320070,"Roll, wheat or cracked wheat, hamburger bun",823,,319.0,546.0,2621.0
+75205005,"Green beans, cooked, from restaurant",824,,,,269.0
+53105275,"Cake or cupcake, chocolate, no icing",825,733.0,707.0,886.0,1039.0
+75211020,"Cabbage, green, cooked, no added fat",826,979.0,872.0,745.0,785.0
+53220030,"Cookie, fig bar",827,1109.0,857.0,1144.0,607.0
+58105000,"Fajita, chicken",828,1162.0,691.0,613.0,1054.0
+56203020,,829,347.0,449.0,,
+12110100,"Cream, light",830,627.0,597.0,1146.0,1393.0
+25210280,"Hot dog, meat and poultry",831,855.0,866.0,1150.0,675.0
+56112000,"Noodles, cooked",832,919.0,925.0,714.0,811.0
+71501005,"Potato, mashed, from fast food",833,,240.0,1774.0,2038.0
+78101100,"Fruit and vegetable smoothie, with dairy",834,,510.0,477.0,1217.0
+71508001,"Potato, baked, peel eaten",835,,,517.0,458.0
+72201221,"Broccoli, fresh, cooked, fat added, not specified subcategory as to fat type",836,464.0,,2766.0,556.0
+92530950,"Vegetable and fruit juice drink, with high vitamin C",837,602.0,1139.0,743.0,1030.0
+27243000,"Chicken or turkey and rice, no sauce",838,642.0,742.0,1361.0,937.0
+57335550,,839,712.0,957.0,898.0,895.0
+53242000,"Cookie, sugar wafer",840,856.0,751.0,1023.0,831.0
+11542100,"Milk shake, fast food, chocolate",841,1161.0,678.0,914.0,799.0
+71505000,"Potato tots, not further specified subcategory assigned",842,404.0,434.0,3938.0,3280.0
+71103000,"Potato, boiled, from fresh, peel not eaten, not specified subcategory as to fat",843,448.0,374.0,4477.0,3769.0
+53710400,Cereal or granola bar (General Mills Fiber One Chewy Bar),844,577.0,562.0,1400.0,1629.0
+11220000,"Milk, condensed, sweetened",845,628.0,1293.0,634.0,1127.0
+13150000,"Sherbet, all flavors",846,802.0,995.0,631.0,1023.0
+92410720,"Soft drink, root beer, diet",847,805.0,715.0,797.0,1104.0
+58101610,,848,1201.0,885.0,425.0,1321.0
+75415022,Fried onion rings,849,3256.0,895.0,2173.0,401.0
+11561000,,850,203.0,,,
+58163430,"Spanish rice, not specified subcategory as to fat",851,444.0,873.0,1199.0,1470.0
+58421020,"Sopa de Fideo Aguada, Mexican style noodle soup, home recipe",852,499.0,968.0,1332.0,1063.0
+21105130,,853,903.0,754.0,540.0,1583.0
+55103000,"Pancakes, fruit",854,564.0,761.0,1322.0,1232.0
+28310330,Pho,855,590.0,1404.0,696.0,1093.0
+57347000,"Cereal, flavored puffs",856,709.0,1025.0,1167.0,789.0
+51301040,"Bread, wheat or cracked wheat, made from home recipe or purchased at bakery",857,796.0,676.0,1065.0,1037.0
+71404030,"Potato, hash brown, from restaurant",858,,,458.0,544.0
+63135150,,859,547.0,681.0,680.0,
+58106570,"Pizza with pepperoni, from school lunch, thin crust",860,553.0,545.0,1754.0,1760.0
+58101325,,861,724.0,883.0,862.0,1035.0
+63219020,,862,811.0,585.0,511.0,
+92582110,"Fruit juice drink, added calcium (Sunny D)",863,1048.0,882.0,757.0,861.0
+53720200,Nutrition bar (Clif Bar),864,1311.0,809.0,1046.0,679.0
+21101000,"Beef, steak, not further specified subcategory assigned",865,1868.0,1540.0,1772.0,399.0
+71602950,"Potato salad, from restaurant",866,,729.0,704.0,727.0
+24127150,,867,314.0,609.0,,
+13120050,"Ice cream bar, vanilla",868,782.0,1185.0,699.0,939.0
+28500000,"Gravy, poultry",869,783.0,532.0,1632.0,1152.0
+75649110,"Vegetable soup, home recipe",870,798.0,1057.0,750.0,969.0
+92101950,"Coffee, Cafe Mocha",871,433.0,948.0,1599.0,1401.0
+58147330,"Macaroni or noodles, creamed, with cheese",872,513.0,364.0,,5077.0
+13130700,"Soft serve, blended with candy or cookies, from fast food",873,581.0,1329.0,1174.0,872.0
+83300300,,874,651.0,646.0,879.0,1889.0
+41106020,"Kidney beans, from dried, no added fat",875,744.0,807.0,670.0,1660.0
+27540350,,876,749.0,867.0,765.0,1191.0
+58106325,"Pizza, cheese, with vegetables, from restaurant or fast food, medium crust",877,879.0,942.0,883.0,868.0
+25210110,"Hot dog, not further specified subcategory assigned",878,612.0,1239.0,904.0,1026.0
+91501020,Gelatin dessert with fruit,879,636.0,855.0,832.0,1438.0
+27510631,"Hamburger, on white bun, 1 medium patty",880,,,852.0,407.0
+24147230,,881,419.0,436.0,,
+58101620,,882,736.0,954.0,538.0,1989.0
+53347000,"Pie, pumpkin",883,799.0,1006.0,725.0,1109.0
+52302500,"Muffin, chocolate chip",884,929.0,1061.0,968.0,765.0
+58105050,"Fajita, beef or pork",885,996.0,921.0,534.0,1370.0
+27111420,Chili con carne without beans,886,1044.0,653.0,1050.0,1064.0
+14104200,"Cheese, Colby",887,1235.0,899.0,677.0,945.0
+92309020,"Tea, iced, bottled, black, diet",888,,399.0,812.0,1230.0
+54406010,Onion flavored rings,889,,3814.0,467.0,616.0
+24162110,,890,353.0,586.0,,
+57126000,"Cereal, chocolate crispy",891,816.0,916.0,1075.0,926.0
+53610100,"Coffee cake, crumb or quick-bread type",892,831.0,803.0,979.0,1038.0
+11511300,"Chocolate milk, ready to drink, fat free",893,889.0,1101.0,859.0,845.0
+63203600,"Blueberries, frozen",894,898.0,817.0,931.0,997.0
+75511040,"Pepper, hot, pickled",895,910.0,845.0,1079.0,891.0
+78101000,"Vegetable and fruit juice, 100% juice, with high vitamin C",896,992.0,621.0,1118.0,1132.0
+21102120,,897,1051.0,836.0,726.0,1101.0
+95230000,"Nutritional powder mix, whey based, not further specified subcategory assigned",898,1134.0,671.0,982.0,999.0
+12220200,Whipped topping,899,1290.0,1319.0,555.0,885.0
+58130016,"Lasagna with meat, frozen",900,,705.0,935.0,698.0
+71501017,"Potato, mashed, from restaurant, with gravy",901,,,622.0,503.0
+75215990,"Corn, cooked, from restaurant",902,,,,304.0
+89901040,"Soy based sauce, for use with vegetables",903,,,,308.0
+11553000,,904,225.0,,,
+27111410,Chili con carne with beans,905,256.0,1361.0,4279.0,5231.0
+24122110,,906,364.0,566.0,,
+56203213,,907,473.0,397.0,,
+83204050,"Mayonnaise-type salad dressing, light",908,647.0,677.0,687.0,4067.0
+32400080,"Egg white omelet, scrambled, or fried, no added fat",909,747.0,594.0,1444.0,1353.0
+14420200,"Cheese spread, cream cheese, regular",910,813.0,777.0,694.0,1677.0
+42111500,"Peanuts, honey roasted",911,997.0,951.0,787.0,982.0
+92307500,Iced Tea / Lemonade juice drink,912,1445.0,1331.0,944.0,617.0
+92308500,"Tea, iced, brewed, green, pre-sweetened with sugar",913,,656.0,583.0,1059.0
+71600950,"Potato salad with egg, from restaurant",914,,956.0,831.0,620.0
+51184210,"Breadsticks, soft, fast food / restaurant",915,,,387.0,711.0
+24142220,,916,401.0,514.0,,
+67105030,"Baby Toddler bananas, Stage 1",917,653.0,1008.0,963.0,1140.0
+32400065,"Egg white omelet, scrambled, or fried, made with oil",918,703.0,805.0,1037.0,1264.0
+14101010,"Cheese, Blue or Roquefort",919,867.0,714.0,1386.0,996.0
+13411000,White sauce or gravy,920,881.0,828.0,974.0,1033.0
+28315150,"Meat and corn hominy soup, home recipe, Mexican style",921,1045.0,787.0,1241.0,840.0
+75307000,"Peppers and onions, cooked, fat added",922,1227.0,3277.0,2729.0,414.0
+27520220,"Ham sandwich on white, with cheese",923,,,,316.0
+27146000,,924,411.0,512.0,,
+58147310,,925,494.0,408.0,,
+58106320,"Pizza, cheese, with vegetables, from restaurant or fast food, thin crust",926,803.0,881.0,1119.0,986.0
+54328200,"Crackers, sandwich, cheese filled",927,835.0,1121.0,729.0,1110.0
+13130620,,928,841.0,558.0,642.0,
+58160700,"Rice, white, with other vegetables, not specified subcategory as to fat",929,888.0,559.0,1001.0,1721.0
+12100100,"Cream, not specified subcategory as to light, heavy, or half and half",930,1309.0,829.0,922.0,860.0
+11710637,"Infant formula, Enfamil Infant, powder, made with tap water",931,,468.0,629.0,1624.0
+92171000,"Coffee, bottled/canned",932,,924.0,867.0,633.0
+27260010,"Meat loaf, not specified subcategory as to type of meat",933,656.0,708.0,1619.0,1342.0
+63200100,"Berries, not further specified subcategory assigned",934,784.0,1259.0,1739.0,703.0
+52215000,"Tortilla, not further specified subcategory assigned",935,892.0,770.0,1021.0,1162.0
+91200000,"Sugar substitute, powder, not further specified subcategory assigned",936,1169.0,411.0,1583.0,1504.0
+57221700,"Cereal, fruit rings",937,3105.0,,3195.0,340.0
+81104510,"Butter-oil blend, tub",938,,4463.0,4981.0,328.0
+54103000,"Crackers, breakfast biscuit",939,,,1071.0,409.0
+41304990,"Lentils, from dried, fat added",940,363.0,3849.0,,878.0
+58407010,"Instant soup, noodle",941,662.0,1077.0,1132.0,1075.0
+58104740,"Quesadilla, chicken",942,982.0,1141.0,1270.0,732.0
+53235500,"Cookie, with peanut butter filling, chocolate-coated",943,1016.0,972.0,1105.0,827.0
+58106738,"Pizza with extra meat and extra vegetables, medium crust",944,1407.0,950.0,809.0,866.0
+91745025,"Candy, hard",945,,,,322.0
+21501200,,946,490.0,438.0,,
+75649010,"Vegetable soup, canned, prepared with water or ready-to-serve",947,694.0,1096.0,1362.0,938.0
+27111500,"Sloppy joe, no bun",948,893.0,706.0,1157.0,1193.0
+91705200,Chocolate chips,949,1337.0,1055.0,747.0,884.0
+72119190,"Kale, raw",950,,,407.0,745.0
+58106512,"Pizza with pepperoni, from frozen, thin crust",951,,,518.0,609.0
+11436000,"Yogurt, liquid",952,,,887.0,453.0
+75205031,"Green beans, fresh, cooked, fat added, not specified subcategory as to fat type",953,430.0,4609.0,4232.0,814.0
+71405000,,954,506.0,440.0,,
+54401100,,955,509.0,447.0,,
+75226020,"Peppers, green, cooked",956,659.0,3018.0,,587.0
+58126130,"Turnover or hot pocket, ham",957,707.0,1080.0,1117.0,1102.0
+24143220,"Chicken drumstick, stewed, skin not eaten",958,717.0,1016.0,911.0,1252.0
+75224023,"Green peas, canned, cooked, no added fat",959,751.0,1157.0,733.0,1382.0
+51108100,"Bread, naan",960,943.0,1129.0,1081.0,863.0
+75311012,"Classic mixed vegetables, frozen, cooked, no added fat",961,969.0,854.0,938.0,1131.0
+92550040,"Fruit juice drink, diet",962,371.0,1238.0,2360.0,1904.0
+12350000,,963,476.0,485.0,,
+93504000,Rum,964,510.0,1528.0,1467.0,1178.0
+81103040,"Margarine-oil blend, stick",965,591.0,736.0,850.0,
+75216000,,966,596.0,750.0,779.0,
+56205130,"Yellow rice, cooked, not specified subcategory as to fat",967,767.0,1020.0,958.0,1209.0
+27146100,Sweet and sour chicken or turkey,968,820.0,949.0,1035.0,1175.0
+58163420,"Spanish rice, no added fat",969,891.0,877.0,846.0,1339.0
+75460900,"Chow mein or chop suey, meatless, with noodles",970,1538.0,739.0,865.0,1094.0
+63219000,"Raspberries, raw",971,2704.0,1341.0,1969.0,482.0
+64100220,"Cranberry juice blend, 100% juice, with calcium added",972,,852.0,564.0,1027.0
+42302025,,973,,,476.0,682.0
+55100010,"Pancakes, plain, frozen",974,,,567.0,603.0
+25230230,,975,485.0,490.0,,
+53241600,"Cookie, butter or sugar, with fruit and/or nuts",976,732.0,944.0,996.0,1372.0
+58160540,"Rice, white, with tomatoes and/or tomato-based sauce, fat added",977,830.0,993.0,1469.0,877.0
+27311410,"Beef stew with potatoes and vegetables including carrots, broccoli, and/or dark-green leafy; gravy",978,857.0,983.0,1455.0,894.0
+51301750,"Bagel, whole wheat",979,885.0,701.0,1095.0,1420.0
+82101000,"Vegetable oil, not further specified subcategory assigned",980,899.0,796.0,956.0,1308.0
+92410390,"Soft drink, pepper type, decaffeinated",981,980.0,833.0,1189.0,1036.0
+24153220,"Chicken thigh, stewed, skin not eaten",982,1215.0,1266.0,841.0,836.0
+75205022,"Green beans, frozen, cooked, no added fat",983,1303.0,794.0,917.0,1049.0
+95220010,"Nutritional powder mix, high protein, not further specified subcategory assigned",984,1988.0,994.0,706.0,889.0
+42110100,"Mixed nuts, with peanuts, salted",985,3820.0,3839.0,653.0,583.0
+53520135,"Doughnut, cake type, with icing",986,,,,339.0
+81308200,"Sauce, not further specified subcategory assigned",987,,,,341.0
+89902060,"Spinach, for use on a sandwich",988,,,,343.0
+92101925,"Frozen coffee drink, with whipped cream",989,743.0,1250.0,1519.0,922.0
+51301700,"Bagel, wheat",990,819.0,843.0,945.0,1481.0
+27560910,,991,849.0,773.0,1422.0,1156.0
+74201001,"Tomatoes, fresh, cooked",992,1017.0,1727.0,1544.0,637.0
+63101150,"Applesauce, flavored",993,3561.0,1606.0,3738.0,418.0
+92550035,"Fruit juice drink, light",994,,810.0,599.0,1078.0
+71501012,"Potato, mashed, from fresh, made with milk, with gravy",995,,,562.0,636.0
+58106234,"Pizza, cheese, from school lunch, medium crust",996,,,808.0,511.0
+61210620,"Orange juice, 100%, frozen, reconstituted",997,817.0,823.0,842.0,1897.0
+75233011,"Summer squash, yellow or green, fresh, cooked, no added fat",998,949.0,830.0,888.0,1437.0
+22400120,,999,1114.0,732.0,1074.0,1223.0
