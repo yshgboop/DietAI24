@@ -1,14 +1,12 @@
 import pandas as pd
-import requests
+import os
 
 # Define file paths
-PATH_SAMPLE = '../Nutrition5k/metadata/metadata_sample.csv'
-PATH_DISH_1 = '../Nutrition5k/metadata/dish_metadata_cafe1.csv'
-PATH_DISH_2 = '../Nutrition5k/metadata/dish_metadata_cafe2.csv'
-OUTPUT_PATH = '../Nutrition5k/metadata/dish_metadata_available.csv'
+PATH_DISH_1 = '/Volumes/My Passport/nutrition5k_dataset/metadata/dish_metadata_cafe1.csv'
+PATH_DISH_2 = '/Volumes/My Passport/nutrition5k_dataset/metadata/dish_metadata_cafe2.csv'
+OUTPUT_PATH = '/Volumes/My Passport/nutrition5k_dataset/metadata/dish_metadata_available.csv'
 
 # Load data
-df_sample = pd.read_csv(PATH_SAMPLE)
 df_dish_1 = pd.read_csv(PATH_DISH_1, header=None, engine='python', on_bad_lines='skip')
 df_dish_2 = pd.read_csv(PATH_DISH_2, header=None, engine='python', on_bad_lines='skip')
 
@@ -54,16 +52,25 @@ def remove_duplicate_ingredients(df):
     df_unique = df_unique.sort_values(by='dish_id')
     return df_unique
 
-def filter_unavailable_images(df):
-    """Filter out dishes with unavailable images."""
+def filter_unavailable_images(df, image_base_path='/Volumes/My Passport/nutrition5k_dataset/imagery/realsense_overhead'):
+    """Filter out dishes with unavailable local images.
+
+    Args:
+        df: DataFrame with dish_id column
+        image_base_path: Base path where images are stored locally
+    """
     indices_to_remove = []
-    for i in range(len(df)):
-        dish_id = df.loc[i, 'dish_id']
-        url_str = f'/{dish_id}/rgb.png'
-        req_url = requests.get(url_str)
-        if req_url.status_code != 200:
-            print(f'Image URL is not accessible for dish_id: {dish_id}')
-            indices_to_remove.append(i)
+    for idx, row in df.iterrows():
+        dish_id = row['dish_id']
+        # Check local file path: {base_path}/{dish_id}/rgb.png
+        image_path = os.path.join(image_base_path, dish_id, 'rgb.png')
+
+        if not os.path.exists(image_path):
+            print(f'Image file not found for dish_id: {dish_id}')
+            indices_to_remove.append(idx)
+
+    print(f'\nFiltering results: {len(df) - len(indices_to_remove)} dishes with valid images out of {len(df)} total')
+    print(f'Removed {len(indices_to_remove)} dishes with missing images')
 
     df_filtered = df.drop(indices_to_remove)
     df_filtered.reset_index(drop=True, inplace=True)
@@ -76,8 +83,23 @@ def main():
 
     df_ingredients = remove_duplicate_ingredients(df_ingredients)
     df_ingredients_available = filter_unavailable_images(df_ingredients)
+
+    # Randomly select 1000 images if more are available
+    total_available = len(df_ingredients_available)
+    print(f"Total available images after filtering: {total_available}")
+
+    if total_available > 1000:
+        print(f"Randomly selecting 1000 images from {total_available} available...")
+        df_ingredients_available = df_ingredients_available.sample(n=1000, random_state=42)
+        print("Successfully selected 1000 images")
+    elif total_available < 1000:
+        print(f"Warning: Only {total_available} images available (less than 1000)")
+    else:
+        print("Exactly 1000 images available, using all")
+
     df_ingredients_available.to_csv(OUTPUT_PATH, index=False)
     print("Processed data saved to:", OUTPUT_PATH)
+    print(f"Final dataset size: {len(df_ingredients_available)} images")
 
 if __name__ == "__main__":
     main()

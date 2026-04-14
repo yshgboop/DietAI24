@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Define file paths
-EXCEL_FILE_PATH = '../FNDDS/2019-2020 FNDDS At A Glance - Foods and Beverages.xlsx'
+EXCEL_FILE_PATH = '/Volumes/My Passport/FNDDS/2019-2020 FNDDS At A Glance - Foods and Beverages.xlsx'
 CSV_FILE_PATH = '../FNDDS/2019-2020 FNDDS - Foods and Beverages.csv'
 
 def load_data(excel_file_path):
@@ -36,7 +36,7 @@ def create_food_description(data):
 
 def save_data(data, csv_file_path):
     """Save the cleaned data to a CSV file."""
-    data.drop(columns=['Main food description', 'Additional food description'], inplace=True)
+    data.drop(columns=['Additional food description'], inplace=True)  # Keep 'Main food description' for asa_proc.py
     data.dropna(inplace=True)
     data.to_csv(csv_file_path, index=False)
 
