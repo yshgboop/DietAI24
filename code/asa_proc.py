@@ -3,10 +3,10 @@ from collections import Counter
 
 # File paths
 paths = {
-    "2011_2012": '../NHANES/2011-2012/DR1IFF_G.XPT',
-    "2013_2014": '../NHANES/2013-2014/DR1IFF_H.XPT',
-    "2015_2016": '../NHANES/2015-2016/DR1IFF_I.XPT',
-    "2017_pre_pandemic": '../NHANES/2017 March-2020 Pre-pandemic/P_DR1IFF.XPT',
+    "2011_2012": '/Volumes/My Passport/NHANES/DR1IFF_G.xpt',
+    "2013_2014": '/Volumes/My Passport/NHANES/DR1IFF_H.XPT',
+    "2015_2016": '/Volumes/My Passport/NHANES/DR1IFF_I.XPT',
+    "2017_pre_pandemic": '/Volumes/My Passport/NHANES/P_DR1IFF.XPT',
     "food_descriptions": '../FNDDS/2019-2020 FNDDS - Foods and Beverages.csv',
     "output": '../NHANES/top_1000_frequent_select_foods.csv'
 }
@@ -15,7 +15,7 @@ paths = {
 def load_data(paths):
     data = {}
     for key, path in paths.items():
-        if path.endswith('.XPT'):
+        if path.lower().endswith('.xpt'):  # Handle both .XPT and .xpt
             data[key] = pd.read_sas(path)
         elif path.endswith('.csv'):
             data[key] = pd.read_csv(path)
@@ -57,7 +57,7 @@ def main(paths):
     merged_counter_sort = merge_frequencies(freq_dicts)
     dict_top_1000 = dict(merged_counter_sort[:1000])
     
-    food_descriptions = data["food_descriptions"].set_index('Food code')['Main Food description'].to_dict()
+    food_descriptions = data["food_descriptions"].set_index('Food code')['Main food description'].to_dict()
     
     df_reports = create_report(dict_top_1000, order_dicts, food_descriptions)
     df_reports.to_csv(paths["output"], index=False)
