@@ -1,7 +1,6 @@
 from openai import OpenAI
 import base64
-import dotenv
-dotenv.load_dotenv()
+from config import API_KEYS
 
 
 def open_img(image_path):
@@ -13,7 +12,7 @@ def open_img(image_path):
 
 class Vision:
     def __init__(self, model_name):
-        self.client = OpenAI()  
+        self.client = OpenAI(api_key=API_KEYS["openai"])
 
         self.model_name = model_name
         self.messages = [
@@ -42,8 +41,8 @@ class Vision:
         res = self.client.chat.completions.create(
             model=self.model_name,
             messages=self.messages,
-            temperature=0.01,
-            max_tokens=600
+            temperature=1,  # gpt-5-mini only supports default temperature of 1
+            max_completion_tokens=1000,
         )
         response = res.choices[0].message.content
         self.messages.append({"role": "assistant", "content": response})

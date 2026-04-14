@@ -1,17 +1,12 @@
 import os
 
-API_VERSION = '2023-05-15'
-API_TYPE = "azure"
+API_TYPE = "openai"
 MODELS = {
-    'llm': 'gpt-4-turbo',
-    'llm_vision': 'gptv',
+    'llm': 'gpt-5-mini',
+    'llm_vision': 'gpt-5-mini',  
     'embedding': 'text-embedding-3-large'
 }
-AZURE_ENDPOINTS = {
-    'llm': "",
-    'llm_vision': ""
-}
+
 API_KEYS = {
-    'llm': "",
-    'llm_vision': ""
+    'openai': os.environ.get('OPENAI_API_KEY', '')  # Read from environment for security
 }
