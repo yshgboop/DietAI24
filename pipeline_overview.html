@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DietAI24 Pipeline Overview</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f9; color: #2d3748; padding: 32px 24px; }
+  h1 { font-size: 1.8rem; font-weight: 700; color: #1a202c; margin-bottom: 6px; }
+  .subtitle { color: #718096; font-size: 0.95rem; margin-bottom: 36px; }
+  h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid currentColor; }
+
+  /* Two-column layout */
+  .pipelines { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .pipeline { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .pipeline.asa h2 { color: #2b6cb0; border-color: #bee3f8; }
+  .pipeline.n5k h2 { color: #276749; border-color: #c6f6d5; }
+
+  /* Step cards */
+  .step { border-radius: 8px; padding: 14px 16px; margin-bottom: 6px; position: relative; }
+  .step-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .step-num { font-size: 0.72rem; font-weight: 700; border-radius: 50%; width: 24px; height: 24px;
+              display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .step-title { font-weight: 600; font-size: 0.9rem; }
+  .step-script { font-family: monospace; font-size: 0.78rem; border-radius: 4px; padding: 2px 7px;
+                 display: inline-block; margin-bottom: 8px; }
+
+  /* Step types */
+  .prep   { background: #ebf8ff; } .prep .step-num   { background: #bee3f8; color: #2b6cb0; }
+  .infer  { background: #faf5ff; } .infer .step-num  { background: #e9d8fd; color: #553c9a; }
+  .calc   { background: #f0fff4; } .calc .step-num   { background: #c6f6d5; color: #276749; }
+  .eval   { background: #fffaf0; } .eval .step-num   { background: #feebc8; color: #c05621; }
+
+  .asa .step-script   { background: #ebf8ff; color: #2c5282; }
+  .n5k .step-script   { background: #f0fff4; color: #22543d; }
+
+  /* IO rows */
+  .io { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; }
+  .io-row { display: flex; align-items: flex-start; gap: 6px; }
+  .io-label { font-weight: 600; white-space: nowrap; flex-shrink: 0; width: 50px; }
+  .io-label.in  { color: #4a5568; }
+  .io-label.out { color: #276749; }
+  .io-files { display: flex; flex-wrap: wrap; gap: 4px; }
+  .file-tag { border-radius: 4px; padding: 1px 7px; font-family: monospace; font-size: 0.75rem; border: 1px solid transparent; }
+  .file-data { background: #edf2f7; color: #4a5568; border-color: #cbd5e0; }
+  .file-out  { background: #f0fff4; color: #276749; border-color: #9ae6b4; }
+  .file-excel{ background: #faf5ff; color: #553c9a; border-color: #d6bcfa; }
+  .file-img  { background: #fff5f5; color: #c53030; border-color: #feb2b2; }
+  .file-xpt  { background: #fffff0; color: #975a16; border-color: #f6e05e; }
+
+  /* Arrow between steps */
+  .arrow { text-align: center; color: #a0aec0; font-size: 1.1rem; margin: 2px 0; line-height: 1; }
+
+  /* Legend */
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; font-size: 0.8rem; }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  /* Shared section */
+  .shared-note { background: #fffbeb; border: 1px solid #f6e05e; border-radius: 8px;
+                 padding: 12px 16px; margin-bottom: 28px; font-size: 0.82rem; color: #744210; }
+  .shared-note strong { display: block; margin-bottom: 4px; font-size: 0.85rem; }
+
+  /* Description under script name */
+  .step-desc { font-size: 0.79rem; color: #718096; margin-bottom: 8px; line-height: 1.4; }
+
+  @media (max-width: 900px) {
+    .pipelines { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>DietAI24 Pipeline Overview</h1>
+<p class="subtitle">Code files &amp; data files for ASA24 and Nutrition5k datasets — up to nutrient estimation &amp; evaluation (conformal prediction excluded)</p>
+
+<!-- Legend -->
+<div class="legend">
+  <span style="font-weight:600;color:#4a5568;">File types:</span>
+  <div class="legend-item"><span class="legend-dot" style="background:#edf2f7;border:1px solid #cbd5e0;"></span> Input CSV/data</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#f0fff4;border:1px solid #9ae6b4;"></span> Output CSV</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#faf5ff;border:1px solid #d6bcfa;"></span> Excel file</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#fff5f5;border:1px solid #feb2b2;"></span> Images</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#fffff0;border:1px solid #f6e05e;"></span> XPT/SAS file</div>
+</div>
+
+<!-- Shared inputs note -->
+<div class="shared-note">
+  <strong>⚙️ Shared across both pipelines</strong>
+  <strong style="margin-top:6px;display:block;">config.py</strong> — Azure OpenAI credentials (LLM, vision, embedding model endpoints &amp; API keys). Must be configured before running any pipeline step.
+  <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;">
+    <span class="file-tag file-excel">FNDDS/2019-2020 FNDDS At A Glance - FNDDS Nutrient Values.xlsx</span>
+    <span class="file-tag file-data">FNDDS/2019-2020 FNDDS - Foods and Beverages.csv</span>
+    <span class="file-tag file-data">FoodWeights.csv</span>
+  </div>
+  <p style="margin-top:6px;color:#92400e;">These three files are required by multiple steps in both pipelines.</p>
+</div>
+
+<div class="pipelines">
+
+  <!-- ===== ASA24 PIPELINE ===== -->
+  <div class="pipeline asa">
+    <h2>ASA24 Dataset Pipeline</h2>
+
+    <!-- Step 1 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">1</div>
+        <div class="step-title">FNDDS Database Prep</div>
+      </div>
+      <code class="step-script">fndds_proc.py</code>
+      <p class="step-desc">Processes FNDDS Excel into a clean CSV for RAG embeddings. Expands abbreviations (NFS, NS) and formats food descriptions.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-excel">2019-2020 FNDDS At A Glance - Foods and Beverages.xlsx</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">2019-2020 FNDDS - Foods and Beverages.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 2 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">2</div>
+        <div class="step-title">NHANES Frequency Analysis</div>
+      </div>
+      <code class="step-script">asa_proc.py</code>
+      <p class="step-desc">One-time analysis of NHANES dietary recall data across four survey periods (2011–2020). Identifies the top 1,000 most frequently consumed foods.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-xpt">NHANES/DR1IFF_G.XPT … DR2IFF_J.XPT (8 files)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">NHANES/top_1000_frequent_select_foods.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 3 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">3</div>
+        <div class="step-title">Portion Image Selection</div>
+      </div>
+      <code class="step-script">asa_select_portions.py</code>
+      <p class="step-desc">For each of the top 1,000 foods, selects the largest, median, and smallest available ASA24 portion reference images (→ 3,000 rows total). Adds a PortionType label.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">top_1000_frequent_select_foods.csv</span>
+            <span class="file-tag file-data">data/ASA24_ImageMetadata.csv</span>
+            <span class="file-tag file-img">ASA24 portion images (local)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">ASA24_GPTFoodCodes_all_portions.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 4 -->
+    <div class="step infer">
+      <div class="step-header">
+        <div class="step-num">4</div>
+        <div class="step-title">Food Code Inference (RAG + Vision)</div>
+      </div>
+      <code class="step-script">rag_food_code.py</code>
+      <p class="step-desc">GPT-4V describes each food image. MultiQueryRetriever (6 query variants, k=20) searches ChromaDB embeddings of FNDDS to find the best matching 8-digit food code. Includes checkpointing and exponential-backoff retry (5 iterations).</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">FNDDS - Foods and Beverages.csv</span>
+            <span class="file-tag file-data">ASA24_GPTFoodCodes_all_portions.csv</span>
+            <span class="file-tag file-img">Portion image URLs</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">ASA24_GPTFoodCodes_all_portions.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 5 -->
+    <div class="step infer">
+      <div class="step-header">
+        <div class="step-num">5</div>
+        <div class="step-title">Portion Size Estimation (Vision)</div>
+      </div>
+      <code class="step-script">rag_portion_size.py</code>
+      <p class="step-desc">Two-stage vision estimation: (1) Shot mode — selects one of the available FNDDS portion options shown to the model; (2) Amount mode — asks model for a numeric quantity in the chosen unit. Parses fractions and normalises portion descriptions.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">ASA24_GPTFoodCodes_all_portions.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+            <span class="file-tag file-img">Portion image URLs</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">ASA24_GPTFoodCodes_portion.csv</span>
+            <span class="file-tag file-out">(+ GPTPortionDescription, GPTPortionAmount)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 5.5 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">5.5</div>
+        <div class="step-title">Portion Weight Merge</div>
+      </div>
+      <code class="step-script">merge_files.ipynb</code>
+      <p class="step-desc">Merges portion predictions with FoodWeights.csv to convert GPT portion descriptions into gram weights, producing the weight columns needed for nutrient calculation.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">ASA24_GPTFoodCodes_portion.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">ASA24_GPTFoodCodes_portion_with_weights.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 6 -->
+    <div class="step calc">
+      <div class="step-header">
+        <div class="step-num">6</div>
+        <div class="step-title">Nutrient Estimation</div>
+      </div>
+      <code class="step-script">nutrient_estimate.py</code>
+      <p class="step-desc">Looks up nutrient values per 100 g from the FNDDS Excel sheet "FNDDS Nutrient Values". Applies formula: <em>nutrient = (per_100g × weight_g) × 0.01</em>. Produces both ground-truth-weight and GPT-weight nutrient columns.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">ASA24_GPTFoodCodes_portion_with_weights.csv</span>
+            <span class="file-tag file-excel">FNDDS Nutrient Values.xlsx</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">ASA24_GPTFoodCodes_nutrition.csv</span>
+            <span class="file-tag file-out">(Energy kcal, Protein g, Carbs g, Fat g — label &amp; GPT)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 7 -->
+    <div class="step eval">
+      <div class="step-header">
+        <div class="step-num">7</div>
+        <div class="step-title">Results Evaluation</div>
+      </div>
+      <code class="step-script">eval_foodcode_portionsize.py</code>
+      <p class="step-desc">Evaluates food code accuracy (hierarchical matching: exact / close / far / mismatch by digit-prefix) and portion weight error (MAE, MAPE, median AE). Ground truth food codes and label weights come from the input CSV.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">ASA24_GPTFoodCodes_nutrition.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">Match class per row (exact/close/far/mismatch)</span>
+            <span class="file-tag file-out">MAE, MAPE, median AE (portion weight)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end ASA24 -->
+
+  <!-- ===== NUTRITION5K PIPELINE ===== -->
+  <div class="pipeline n5k">
+    <h2>Nutrition5k Dataset Pipeline</h2>
+
+    <!-- Step 1 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">1</div>
+        <div class="step-title">FNDDS Database Prep</div>
+      </div>
+      <code class="step-script">fndds_proc.py</code>
+      <p class="step-desc">Same as ASA24 pipeline — produces FNDDS CSV used for RAG embeddings. <em>Run once; shared output.</em></p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-excel">2019-2020 FNDDS At A Glance - Foods and Beverages.xlsx</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">2019-2020 FNDDS - Foods and Beverages.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 2 -->
+    <div class="step prep">
+      <div class="step-header">
+        <div class="step-num">2</div>
+        <div class="step-title">Dataset Preparation</div>
+      </div>
+      <code class="step-script">nutrition5k_proc.py</code>
+      <p class="step-desc">Parses dish metadata from two café CSV files. Removes duplicate ingredient combinations, filters dishes whose <code>rgb.png</code> image is missing, then randomly selects 1,000 available dishes.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">dish_metadata_cafe1.csv</span>
+            <span class="file-tag file-data">dish_metadata_cafe2.csv</span>
+            <span class="file-tag file-img">Nutrition5k images ({dish_id}/rgb.png)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">nutrition5k_dataset/metadata/dish_metadata_available.csv</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 3 -->
+    <div class="step infer">
+      <div class="step-header">
+        <div class="step-num">3</div>
+        <div class="step-title">Per-Ingredient Food Code Inference</div>
+      </div>
+      <code class="step-script">nutrition5k_food_code.py</code>
+      <p class="step-desc">Processes each dish image locally (<code>rgb.png</code>). GPT-4V identifies individual ingredients; for each ingredient, the RAG chain retrieves a matching 8-digit FNDDS code. Results stored in a semicolon-delimited per-ingredient format. Supports 5 retry iterations with checkpointing.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">dish_metadata_available.csv</span>
+            <span class="file-tag file-data">FNDDS - Foods and Beverages.csv</span>
+            <span class="file-tag file-img">{dish_id}/rgb.png (local images)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">nutrition5k_results.csv</span>
+            <span class="file-tag file-out">(GPTFoodDescription — multi-line per ingredient)</span>
+            <span class="file-tag file-out">(GPTFoodCode — "ingr1: code1; ingr2: code2; …")</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 4 -->
+    <div class="step infer">
+      <div class="step-header">
+        <div class="step-num">4</div>
+        <div class="step-title">Per-Ingredient Portion Estimation</div>
+      </div>
+      <code class="step-script">nutrition5k_portion_size.py</code>
+      <p class="step-desc">For each ingredient in a dish, queries GPT-4V (looking at the full dish image) to estimate a numeric portion amount. Looks up the available FNDDS portion units from FoodWeights.csv for each food code. Stores results in a newline-delimited per-ingredient format. Parallel processing only.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">nutrition5k_results.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+            <span class="file-tag file-img">{dish_id}/rgb.png (local images)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">nutrition5k_results.csv (updated)</span>
+            <span class="file-tag file-out">(+ GPTAmount — "ingr1: 1.5 cup\ningr2: 2 tbsp\n…")</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 5 -->
+    <div class="step calc">
+      <div class="step-header">
+        <div class="step-num">5</div>
+        <div class="step-title">Nutrient Estimation (per-ingredient)</div>
+      </div>
+      <code class="step-script">nutrient_estimate_mix.py</code>
+      <p class="step-desc">Parses per-ingredient portion strings from GPTAmount and GPTFoodCode. For each ingredient: looks up portion weight (g) from FoodWeights.csv, multiplies amount × unit weight, retrieves nutrient values per 100 g from FNDDS Excel, scales by actual weight. Sums nutrients across all ingredients in the dish.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">nutrition5k_results.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+            <span class="file-tag file-excel">FNDDS Nutrient Values.xlsx</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">nutrition5k_final.csv</span>
+            <span class="file-tag file-out">(Energy kcal, Protein g, Carbs g, Fat g — summed across ingredients)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Step 6 -->
+    <div class="step eval">
+      <div class="step-header">
+        <div class="step-num">6</div>
+        <div class="step-title">Results Evaluation</div>
+      </div>
+      <code class="step-script">eval_foodcode_portionsize.py</code>
+      <p class="step-desc">Same evaluation script as ASA24. Compares predicted food codes against Nutrition5k ground-truth ingredient codes (hierarchical matching). Computes portion weight errors (MAE, MAPE) against known dish weights.</p>
+      <div class="io">
+        <div class="io-row">
+          <span class="io-label in">IN</span>
+          <div class="io-files">
+            <span class="file-tag file-data">nutrition5k_final.csv</span>
+            <span class="file-tag file-data">FoodWeights.csv</span>
+            <span class="file-tag file-data">dish_metadata_available.csv (ground truth)</span>
+          </div>
+        </div>
+        <div class="io-row">
+          <span class="io-label out">OUT</span>
+          <div class="io-files">
+            <span class="file-tag file-out">Match class per row (exact/close/far/mismatch)</span>
+            <span class="file-tag file-out">MAE, MAPE, median AE (portion weight)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end Nutrition5k -->
+
+</div><!-- end .pipelines -->
+
+
+<p style="text-align:center;color:#a0aec0;font-size:0.75rem;margin-top:20px;">DietAI24 Pipeline — generated April 2026 · conformal prediction steps excluded</p>
+</body>
+</html>
